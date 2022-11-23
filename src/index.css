@@ -103,7 +103,6 @@
 
 #anime-select {
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
   color: mediumpurple;
   padding: 0.5rem;
   height: 40px;
@@ -111,6 +110,10 @@
   border-radius: 10px;
   background-color: #252525;
   outline: none;
+  transition: all 0.3s ease-in-out;
+}
+#anime-select:hover {
+  background-color: #333;
 }
 
 .search-menu {
@@ -128,6 +131,10 @@
   height: 50px;
   border: 3px solid mediumpurple;
   background-color: #252525;
+  transition: all 0.3s ease-in-out;
+}
+.search_bar:hover {
+  background-color: #333;
 }
 .search_bar:focus {
   outline: none;
@@ -230,6 +237,10 @@
   background-color: #252525;
   border: 2px solid mediumpurple;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.reverse__btn:hover {
+  background-color: #333;
 }
 
 .reset__btn {
@@ -240,6 +251,10 @@
   background-color: #252525;
   border: 2px solid mediumpurple;
   border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.reset__btn:hover {
+  background-color: #333;
 }
 
 .main__content_info {

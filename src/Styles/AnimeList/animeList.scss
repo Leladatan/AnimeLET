@@ -14,7 +14,6 @@
 //selectGenre
 #anime-select {
   cursor: pointer;
-  transition: all .3s ease-in-out;
   color: mediumpurple;
   padding: 0.5rem;
   height: 40px;
@@ -22,6 +21,11 @@
   border-radius: 10px;
   background-color: #252525;
   outline: none;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background-color: #333;
+  }
 }
 
 
@@ -41,6 +45,11 @@
   height: 50px;
   border: 3px solid mediumpurple;
   background-color: #252525;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background-color: #333;
+  }
 
   &:focus {
     outline: none;
@@ -156,6 +165,11 @@
   background-color: #252525;
   border: 2px solid mediumpurple;
   border-radius: 10px;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background-color: #333;
+  }
 }
 
 .reset__btn {
@@ -166,4 +180,9 @@
   background-color: #252525;
   border: 2px solid mediumpurple;
   border-radius: 10px;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background-color: #333;
+  }
 }
