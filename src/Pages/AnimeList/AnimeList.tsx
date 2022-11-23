@@ -12,10 +12,14 @@ export default function AnimeList() {
     const [genreAnime, setGenreAnime] = useState('')
 
     const filteredNameAnime = animeData.filter(anime => {
-        if (anime.age.includes(animeAgeRateSelect) || genreAnime === "choose")
-            return anime.title.toLowerCase().includes(nameAnime.toLowerCase())
-                && anime.age.includes(animeAgeRateSelect)
-                && anime.genre.includes(genreAnime)
+        if (animeAgeRateSelect === "choose" && genreAnime === "choose"
+            || anime.age.includes(animeAgeRateSelect) && genreAnime === "choose"
+            || anime.genre.includes(genreAnime) && animeAgeRateSelect === "choose") {
+            return animeData;
+        }
+        return anime.title.toLowerCase().includes(nameAnime.toLowerCase())
+            && anime.age.includes(animeAgeRateSelect)
+            && anime.genre.includes(genreAnime)
     })
 
     const reset = () => {
