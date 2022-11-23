@@ -44,7 +44,7 @@ export default function AnimeList() {
                                     <select name="anime" id="anime-select" value={genreAnime} onChange={(e) => {
                                         setGenreAnime(e.target.value)
                                     }}>
-                                        <option value="choose">Please choose a genre</option>
+                                        <option value="choose">Genre</option>
                                         <option value="Demons">Demons</option>
                                         <option value="Adventures">Adventures</option>
                                         <option value="Furs">Furs</option>
@@ -80,7 +80,7 @@ export default function AnimeList() {
                                             }}
 
                                     >
-                                        <option value="choose">Please choose a age-rate</option>
+                                        <option value="choose">Age-rate</option>
                                         <option value="0+">0+</option>
                                         <option value="14+">14+</option>
                                         <option value="16+">16+</option>
