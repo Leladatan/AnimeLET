@@ -111,13 +111,15 @@ html, body {
     grid-template-columns: 1fr 1fr;
   }
   .card__img {
+    max-width: 285px;
     max-height: 400px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .card__img {
-    max-height: 300px;
+    max-width: 224px;
+    max-height: 350px;
   }
 }
 
@@ -136,8 +138,8 @@ html, body {
   }
 
   .card__img {
-    max-width: 285px;
-    max-height: 350px;
+    max-width: 256px;
+    max-height: 400px;
   }
 
   .main__content_cards {
@@ -171,6 +173,7 @@ html, body {
     flex-direction: column;
   }
   .card__img {
+    max-width: 192px;
     max-height: 300px;
   }
 }
