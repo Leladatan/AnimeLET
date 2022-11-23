@@ -11,7 +11,7 @@ export default function CardsAnime(props: IAnimeItemProps) {
         <>
             <div className="card">
                 <div className="card__wrap">
-                    <Link to={props.item.link}>
+                    <Link to={`/animelist/${props.item.id}`}>
                         <img className="card__img" src={props.item.img} alt={props.item.title}/>
                         <div className="poster">
                             <svg className="star-rate" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
