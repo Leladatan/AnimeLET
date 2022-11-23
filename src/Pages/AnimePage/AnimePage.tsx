@@ -31,7 +31,7 @@ export default function AnimePage() {
                                             d="M2.4713 15L4.47223 8.98092L0 5.46228H5.64194L7.45777 0L9.15645 5.46228H15L10.275 9.05924L12.1225 15L7.37643 11.2659L2.4713 15Z"
                                             fill="#9370DB"/>
                                     </svg>
-                                    <span className="anime-page__rate-text">{itemAnime.rate}</span>
+                                    <span className="anime-page__rate-text">{itemAnime.rate.toFixed(1)}</span>
                                 </div>
                                 <div className="anime-page__year">
                                     <h3 className="anime-page__year-title">Year</h3>
