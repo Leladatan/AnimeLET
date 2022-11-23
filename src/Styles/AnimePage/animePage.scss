@@ -61,10 +61,11 @@
   color: #e6e6e6;
 }
 
-@media screen and (max-width: 769px){
+@media screen and (max-width: 769px) {
   .anime-page {
     flex-direction: column;
   }
+
   .animePage-img {
     max-width: 450px;
   }
