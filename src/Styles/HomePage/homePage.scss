@@ -1,0 +1,25 @@
+.main__content_info {
+  padding: 3rem 0;
+}
+//title
+.main__content_info_title {
+  color: mediumpurple;
+  font-size: 30px;
+  font-weight: bold;
+}
+//text
+.main__content_info_text {
+  color: mediumpurple;
+  margin: 2rem 0;
+}
+//list
+.main__content_info_list {
+  padding-left: 2rem;
+  list-style: disc;
+  color: mediumpurple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}

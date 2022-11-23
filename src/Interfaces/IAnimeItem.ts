@@ -5,6 +5,7 @@ export interface IAnimeItem {
     genre: string[],
     rate: number,
     age: string,
+    year: number,
     img: string,
     link: string,
 }

@@ -25,22 +25,29 @@
   font-weight: bold;
 }
 
-.header__logo_text > span{
+.header__logo_text > span {
   font-family: 'AnimeFont', sans-serif;
   color: mediumpurple;
   font-size: 30px;
   font-weight: bold;
   padding-left: 0.2rem;
 }
+
 //navbar
 .header__list_link {
   color: #ffffff;
   transition: all .3s ease-in-out;
+
+  &:hover {
+    color: rebeccapurple;
+  }
+
   &_active {
     transition: all .3s ease-in-out;
     color: mediumpurple;
   }
 }
+
 //society
 .society {
   display: flex;

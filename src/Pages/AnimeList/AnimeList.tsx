@@ -12,13 +12,23 @@ export default function AnimeList() {
     const [genreAnime, setGenreAnime] = useState('')
 
     const filteredNameAnime = animeData.filter( anime => {
-        if (animeAgeRateSelect === "choose" || genreAnime === "choose") {
-            return animeData
-        }
+        if (anime.age.includes(animeAgeRateSelect) || genreAnime === "choose")
         return anime.title.toLowerCase().includes(nameAnime.toLowerCase())
             && anime.age.includes(animeAgeRateSelect)
             && anime.genre.includes(genreAnime)
     })
+
+    const sortedAnimeRate = animeData.sort(function (a, b) {
+        return b.rate - a.rate;
+    }).slice(0,5)
+
+    const reset = () => {
+        setNameAnime('')
+        setAnimeAgeRateSelect('')
+        setGenreAnime('')
+    }
+
+
 
     return (
         <>
@@ -28,6 +38,8 @@ export default function AnimeList() {
                     <div className="main__content">
                         <div className="main__content_title">
                             <h2>List of Anime</h2>
+                            <p>{animeAgeRateSelect}</p>
+                            <p>{genreAnime}</p>
                         </div>
                         <div className="main__content_search">
                             <div className="select_anime">
@@ -40,7 +52,7 @@ export default function AnimeList() {
                                     <option value="Furs">Furs</option>
                                     <option value="Comedy">Comedy</option>
                                     <option value="Detective">Detective</option>
-                                    <option value="Everyday_life">Everyday life</option>
+                                    <option value="Slice of life">Slice of life</option>
                                     <option value="Supernatural">Supernatural</option>
                                     <option value="Senen">Senen</option>
                                     <option value="Action">Action</option>
@@ -59,8 +71,8 @@ export default function AnimeList() {
                             <div className="search">
                                 <input type="text" className="search_bar" value={nameAnime}
                                        onChange={(e)=> {
-                                    setNameAnime(e.target.value)
-                                }} placeholder="Enter anime name..."
+                                           setNameAnime(e.target.value)
+                                       }} placeholder="Enter anime name..."
                                 />
                             </div>
                             <div className="select_age">
@@ -76,6 +88,11 @@ export default function AnimeList() {
                                     <option value="16+">16+</option>
                                     <option value="18+">18+</option>
                                 </select>
+                            </div>
+                            <div className="reset">
+                                <button className="reset__btn" onClick={reset}>
+                                    Reset
+                                </button>
                             </div>
                         </div>
                         <div className="main__content_cards">
