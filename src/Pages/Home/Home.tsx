@@ -25,38 +25,45 @@ export default function Home() {
                             ))}
                         </div>
                         <div className="main__content_info">
-                            <h3 className="main__content_info_title">Наши преимущества</h3>
-                            <p className="main__content_info_text">Мы подготовили для Вас следующие бонусы:</p>
+                            <h3 className="main__content_info_title">Our advantages</h3>
+                            <p className="main__content_info_text">We have prepared the following bonuses for you:</p>
                             <ul className="main__content_info_list">
-                                <li className="main__content_info_list_item">Огромный выбор аниме мультики онлайн. У нас
-                                    загружены все популярные и качественные аниме прошлых лет, и наша коллекция
-                                    регулярно пополняется самыми последними новинками. В каталоге есть как
-                                    полнометражные, так и аниме сериалы, а жанровое разнообразие во многом превосходит
-                                    другие аналогичные порталы. У нас Вы сможете посмотреть красивые произведения о
-                                    любви и дружбе, вере и предательстве, доброте и корысти, и многое другое.
+                                <li className="main__content_info_list_item">Huge selection of anime cartoons online. We
+                                    have
+                                    all popular and high-quality anime of past years are loaded, and our collection
+                                    updated regularly with the latest news. The catalog contains
+                                    full-length and anime series, and the genre diversity in many ways exceeds
+                                    other similar portals. Here you can see beautiful works of
+                                    love and friendship, faith and betrayal, kindness and self-interest, and much more.
                                 </li>
-                                <li className="main__content_info_list_item">Превосходное качество. Все файлы
-                                    предоставляются в HD-формате, что позволяет смотреть аниме онлайн в хорошем качестве
-                                    не только на персональном компьютере, но и на телевизоре. Благодаря грамотному
-                                    использованию IT-технологий мы гарантируем Вам комфортный бесперебойный просмотр
-                                    любого аниме, максимально имитирующий поход в настоящий кинотеатр. При этом Вы
-                                    сможете в любой момент поставить на паузу или перемотать его до нужного момента.
+                                <li className="main__content_info_list_item">Excellent quality. All files
+                                    are provided in HD format, which allows you to watch anime online in good quality
+                                    not only on a personal computer, but also on a TV. Thanks to competent
+                                    using IT technologies, we guarantee you a comfortable uninterrupted viewing
+                                    any anime that imitates a trip to a real cinema as much as possible. At the same
+                                    time, you
+                                    you can pause or rewind it at any time to the desired moment.
                                 </li>
-                                <li className="main__content_info_list_item">Удобная навигация. Сайт AnimeLET – это не
-                                    просто хранилище аниме онлайн, а структурированная фильмотека, в которой очень легко
-                                    ориентироваться. Все файлы отсортированы по жанру, длительности, компании-создателю
-                                    и другим параметрам. Вы всегда сможете в считанные минуты найти именно ту ленту,
-                                    которую ищете.
+                                <li className="main__content_info_list_item">Convenient navigation. The AnimeLET website
+                                    is not
+                                    just a repository of anime online, but a structured film library in which it is very
+                                    easy to
+                                    navigate. All files are sorted by genre, duration, creator company
+                                    and other options. You can always find exactly the tape you need in a matter of
+                                    minutes.
+                                    you are looking for.
                                 </li>
-                                <li className="main__content_info_list_item">Минимум рекламы. Как и большинство других
-                                    сайтов, мы пользуемся рекламой, но в то же время мы позаботились о том, чтобы
-                                    рекламные объявления не мешали вашему просмотру. Ненавязчивая и дозированная реклама
-                                    – это одно из преимуществ портала AnimeGO, которое уже оценили тысячи зрителей.
+                                <li className="main__content_info_list_item">Minimum advertising. Like most others
+                                    sites, we use ads, but at the same time we have taken care to
+                                    the ads didn't interfere with your browsing experience. Unobtrusive and dosed
+                                    advertising
+                                    - this is one of the advantages of the AnimeGO portal, which has already been
+                                    appreciated by thousands of viewers.
                                 </li>
                             </ul>
-                            <p className="main__content_info_text">А ещё мы рады предложить Вам приятный дизайн сайта,
-                                быструю работу всех разделов и удобный доступ с различных устройств. Смотреть аниме
-                                онлайн теперь стало ещё приятнее и комфортнее!</p>
+                            <p className="main__content_info_text">And we are also glad to offer you a nice website design,
+                                fast work of all sections and convenient access from various devices. Watch anime
+                                online is now even more pleasant and comfortable!</p>
                         </div>
                     </div>
                 </div>
