@@ -213,9 +213,9 @@
 }
 
 .card__img {
-  object-fit: cover;
+  object-fit: fill;
   width: 100%;
-  height: 350px;
+  height: 100%;
   transition: all 0.2s ease-in-out;
 }
 .card__img:hover {
@@ -408,9 +408,9 @@
 }
 
 .card__img {
-  object-fit: cover;
+  object-fit: fill;
   width: 100%;
-  height: 350px;
+  height: 100%;
   transition: all 0.2s ease-in-out;
 }
 .card__img:hover {
