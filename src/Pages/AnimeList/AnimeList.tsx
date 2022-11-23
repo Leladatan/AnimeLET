@@ -18,10 +18,6 @@ export default function AnimeList() {
             && anime.genre.includes(genreAnime)
     })
 
-    const sortedAnimeRate = animeData.sort(function (a, b) {
-        return b.rate - a.rate;
-    }).slice(0,5)
-
     const reset = () => {
         setNameAnime('')
         setAnimeAgeRateSelect('')
@@ -38,8 +34,6 @@ export default function AnimeList() {
                     <div className="main__content">
                         <div className="main__content_title">
                             <h2>List of Anime</h2>
-                            <p>{animeAgeRateSelect}</p>
-                            <p>{genreAnime}</p>
                         </div>
                         <div className="main__content_search">
                             <div className="select_anime">
@@ -88,6 +82,11 @@ export default function AnimeList() {
                                     <option value="16+">16+</option>
                                     <option value="18+">18+</option>
                                 </select>
+                            </div>
+                            <div className="reverseList">
+                                <button className="reverse__btn">
+                                    Reverse
+                                </button>
                             </div>
                             <div className="reset">
                                 <button className="reset__btn" onClick={reset}>

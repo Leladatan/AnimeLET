@@ -6,7 +6,7 @@ import CardsAnime from "../AnimeList/CardsAnime";
 
 export default function Home() {
 
-    const sortedAnimeRate = animeData.sort(function (a, b) {
+    const sortedAnimeRate = [...animeData].sort(function (a, b) {
         return b.rate - a.rate;
     }).slice(0, 5)
 
