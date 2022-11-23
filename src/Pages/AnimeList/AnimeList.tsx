@@ -64,6 +64,12 @@ export default function AnimeList() {
                                         <option value="Drama">Drama</option>
                                         <option value="Horrors">Horrors</option>
                                         <option value="Magic">Magic</option>
+                                        <option value="Seinen">Seinen</option>
+                                        <option value="Madness">Madness</option>
+                                        <option value="Superpower">Superpower</option>
+                                        <option value="Military">Military</option>
+                                        <option value="Historical">Historical</option>
+                                        <option value="Martial arts">Martial arts</option>
                                     </select>
                                 </div>
                                 <div className="search">
