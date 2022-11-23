@@ -73,13 +73,6 @@ export default function AnimeList() {
                                         <option value="Martial arts">Martial arts</option>
                                     </select>
                                 </div>
-                                <div className="search">
-                                    <input type="text" className="search_bar" value={nameAnime}
-                                           onChange={(e) => {
-                                               setNameAnime(e.target.value)
-                                           }} placeholder="Enter anime name..."
-                                    />
-                                </div>
                                 <div className="select_age">
                                     <select name="anime" id="anime-select" value={animeAgeRateSelect}
                                             onChange={(e) => {
@@ -93,6 +86,13 @@ export default function AnimeList() {
                                         <option value="16+">16+</option>
                                         <option value="18+">18+</option>
                                     </select>
+                                </div>
+                                <div className="search">
+                                    <input type="text" className="search_bar" value={nameAnime}
+                                           onChange={(e) => {
+                                               setNameAnime(e.target.value)
+                                           }} placeholder="Enter anime name..."
+                                    />
                                 </div>
                             </div>
                             <div className="btns">

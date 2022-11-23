@@ -8,6 +8,10 @@ export default function Home() {
 
     const sortedAnimeRate = [...animeData].sort(function (a, b) {
         return b.rate - a.rate;
+    })
+
+    const sortedAnimeYear = sortedAnimeRate.sort(function (a,b) {
+        return b.year - a.year;
     }).slice(0, 5)
 
     return (
@@ -20,7 +24,7 @@ export default function Home() {
                             <h2>This season's Anime</h2>
                         </div>
                         <div className="main__content_cards">
-                            {sortedAnimeRate.map(item => (
+                            {sortedAnimeYear.map(item => (
                                 <CardsAnime item={item} key={item.id}/>
                             ))}
                         </div>
