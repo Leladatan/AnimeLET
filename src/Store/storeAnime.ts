@@ -5,7 +5,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 1,
         title: "Chainsaw man",
-        description: "Дэндзи приходится полностью изменить свою жизнь, чтобы отработать непомерные долги отца. Он становится подручным якудзы в нелегком деле уничтожения демонов. Теперь у Дэндзи лишь одна цель – деньги, только в них он видит шанс на освобождение. Желая быстрей получить прибыль, парень забывает об осторожности и в одной из схваток погибает. Верный Почито спасает хозяина, слившись с ним и дав способность частичного превращения в бензопилу.",
+        description: "Denji has to completely change his life in order to work off his father's exorbitant debts. He becomes a Yakuza henchman in the difficult task of destroying demons. Now Denji has only one goal – money, only in them he sees a chance for liberation. Wanting to make a profit faster, the guy forgets about caution and dies in one of the fights. Faithful Pochito saves the owner by merging with him and giving him the ability to partially transform into a chainsaw.",
         genre: ["", "Demons", "Adventures", "Supernatural", "Senen", "Action"],
         rate: 9.9,
         age: "18+",
@@ -17,7 +17,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 2,
         title: "Spy x Family Part 2",
-        description: "Лойд Форджер скрывает, что он секретный агент Весталиса. Йор Форджер умалчивает, что является наёмной убийцей, работающей в Остании. Тем не менее правда об их фиктивном браке и настоящих профессиях известна «дочери» Лойда, Ане, которую тот взял из приюта, не подозревая, что та не так проста, как кажется. Девочка, прошедшая через эксперименты, обрела способность читать чужие мысли. Пример этой фальшивой семьи подтверждает, что существует ложь во спасение. Особенно, когда на кону стоит ни много ни мало — мир во всём мире и жизни невинных людей!",
+        description: "Lloyd Forger hides that he is a secret agent of Vestalis. Yor Forger keeps silent that he is an assassin working in the Uprising. Nevertheless, the truth about their fictitious marriage and real professions is known to Loyd's \"daughter\", Anya, whom he took from the orphanage, unaware that she is not as simple as it seems. A girl who has gone through experiments has gained the ability to read other people's thoughts. The example of this fake family confirms that there is a lie for salvation. Especially when nothing less is at stake — world peace and the lives of innocent people!",
         genre: ["", "Comedy", "Senen", "Action"],
         rate: 9.6,
         age: "0+",
@@ -29,7 +29,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 3,
         title: "Blue Lock",
-        description: "Попадает в проект и перспективный форвард Ёити Исаги, не сумевший правильно распорядиться мячом в финале молодежного турнира. Получится ли у Исаги отбросить пустые сомнения и доказать всем свою гениальность, эффективность, игровую зрелость? Чтобы стать нападающим мирового уровня, сначала нужно выжить в «Синей тюрьме» и заслужить расположение Дзимпати Эго. Исаги придется отбросить все сомнения и силой возводить мостик к заветной мечте. Главное, не сломаться на полпути. Молодому форварду не привыкать к тяжелым нагрузкам, но хватит ли у Исаги тактической выучки и выдержки, чтобы правильно выстроить стратегию на весь период прохождения «Синей тюрьмы»?",
+        description: "The promising forward of the Saga Thread, who failed to properly dispose of the ball in the final of the youth tournament, also gets into the project. Will Isagi be able to cast aside empty doubts and prove to everyone his genius, efficiency, and game maturity? To become a world-class striker, you first need to survive in the \"Blue Prison\" and earn the favor of the Dzimpati Ego. And sagas will have to put aside all doubts and build a bridge to the cherished dream by force. The main thing is not to break down halfway. The young striker is no stranger to heavy loads, but does Isagi have enough tactical training and endurance to correctly build a strategy for the entire period of passing the \"Blue Prison\"?",
         genre: ["", "Senen", "Sport"],
         rate: 9.6,
         age: "14+",
@@ -41,7 +41,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 4,
         title: "The Eminence in Shadow",
-        description: "В нашем мире такое трудно провернуть, ведь что ни делай, а против атомной бомбы не попрёшь. И вот, раздумывая о способах отражения ядерного оружия голыми руками, наш герой приходит к умозаключению, что без магии никак. Удобно получилось, ведь вскоре после этого парень встретил пресловутый грузовик, который и отправил его на тот свет, а если быть точнее, то в мир, полный мечей, магии и прочих прелестей фэнтези-вселенных. Уж теперь-то у Сида не будет препятствий на пути к становлению величайшим правителем из тени.",
+        description: "In our world, it's hard to pull this off, because no matter what you do, you can't trample on an atomic bomb. And so, thinking about ways to repel nuclear weapons with bare hands, our hero comes to the conclusion that there is no way without magic. It turned out conveniently, because soon after that the guy met the notorious truck, which sent him to the next world, or to be more precise, to a world full of swords, magic and other delights of fantasy universes. Now Sid will have no obstacles on the way to becoming the greatest ruler from the shadows.",
         genre: ["", "Comedy", "Fantasy", "Action"],
         rate: 9.4,
         age: "16+",
@@ -53,7 +53,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 5,
         title: "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
-        description: "Асуна Юки была лучшей ученицей, усердно готовилась к вступительным экзаменам в старшую школу, но это было до того, как она одолжила у брата игровую систему виртуальной реальности и оказалась в ловушке Sword Art Online вместе с десятью тысячами других напуганных игроков. Проходит время, и Асуна начинает бояться, что станет с её жизнью за пределами фантастического мира. Какой неудачницей она может оказаться в глазах сверстников и родителей. Не желая ждать в сторонке, пока более опытные игроки пройдут игру, Асуна использует свои способности к обучению, чтобы изучить механику игры и владение мечом. ",
+        description: "Asuna Yuki was the best student, diligently preparing for the entrance exams to high school, but that was before she borrowed a virtual reality gaming system from her brother and found herself trapped in Sword Art Online along with ten thousand other frightened players. Time passes, and Asuna begins to fear what will become of her life outside of the fantasy world. What a loser she can be in the eyes of her peers and parents. Not wanting to wait on the sidelines while more experienced players complete the game, Asuna uses her learning abilities to learn the mechanics of the game and swordsmanship.",
         genre: ["", "Adventures", "Fantasy", "Action"],
         rate: 9.5,
         age: "16+",
@@ -65,7 +65,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 6,
         title: "Date a live",
-        description: "Населению Земли грозит опасность - инопланетные существа решают атаковать человечество. Люди уже привыкли, что кроме стандартных штормов, бурь и цунами, теперь возникнут еще и неполадки с погодой, урожаем и температурой воздуха. Страшные беды не остановить высококлассным оружием или беседами с противниками. Стоит ли рисковать своей жизнью, чтобы на десять минут унять страшный торнадо, который приходит третий раз за день? Зачем бежать с мечом наперевес в пучину событий, когда можно сделать все хитрее?",
+        description: "The population of the Earth is in danger - alien creatures decide to attack humanity. People are already used to the fact that in addition to the standard storms, storms and tsunamis, now there will also be problems with the weather, harvest and air temperature. Terrible troubles cannot be stopped by high-class weapons or conversations with opponents. Is it worth risking your life to calm a terrible tornado that comes for the third time in a day for ten minutes? Why run with a sword at the ready into the abyss of events when you can make everything more cunning?",
         genre: ["", "Comedy", "Fantasy", "Action"],
         rate: 9.3,
         age: "16+",
@@ -77,7 +77,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 7,
         title: "Angel Beats!",
-        description: "Отонаси просыпается после долгого сна, только чтобы узнать, что он мертв. Девушка с винтовкой по имени Юри объясняет ему, что они в загробной жизни, и Отонаси понимает, что единственное, что он может вспомнить о себе — это своё имя. Юри говорит ему, что она возглавляет «Фронт загробного мира» и ведет войну против девушки по имени Тенши. Не в силах поверить в это, Отонаси пытается поговорить с ней, но встреча проходит не так как хотелось бы.",
+        description: "Otonashi wakes up after a long sleep, only to find out that he is dead. A girl with a rifle named Yuri explains to him that they are in the afterlife, and Otonashi realizes that the only thing he can remember about himself is his name. Yuri tells him that she leads the \"Front of the Underworld\" and is waging a war against a girl named Tenshi. Unable to believe it, Otonashi tries to talk to her, but the meeting does not go as he would like.",
         genre: ["", "Harem", "Comedy", "Furs", "Romance", "Fantasy", "School"],
         rate: 6.0,
         age: "16+",
@@ -89,7 +89,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 8,
         title: "Absolute Duo",
-        description: "Тору Коконоэ надеется поступить в эту академию, чтобы обрести силу, и отомстить за убийство своей сестры и друзей. Тем не менее, на церемонии открытия он узнает, что вынужден сражаться против человека, сидящего рядом с ним, а проигравший изгоняется. Также следуя заведённым в академии правилам, Тору получает в напарницы Юлию Сигтуну, с которой ему теперь предстоит учиться и работать в команде до самого выпуска. Куда уж там до составления планов мести, когда рядом такая сребровласая красавица...",
+        description: "Tooru Kokonoe hopes to enter this academy in order to gain strength and avenge the murder of his sister and friends. However, at the opening ceremony, he learns that he is forced to fight against the person sitting next to him, and the loser is expelled. Also, following the rules established at the academy, Toru gets Julia Sigtuna as a partner, with whom he now has to study and work in a team until graduation. Where is there before making plans for revenge, when there is such a silver-haired beauty nearby...",
         genre: ["", "Harem", "Romance", "Supernatural", "School", "Action", "Etty"],
         rate: 6.7,
         age: "16+",
@@ -101,7 +101,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 9,
         title: "Engage Kiss",
-        description: "Вейрон-сити — город на огромном плавучем острове в Тихом океане, который не принадлежит ни к одной стране. Благодаря добыче оргония — нового источника энергии, он находится в центре мирового внимания. И на нём происходят так называемые «Д-бедствия» — происшествия, вызываемые дьяволами. О Д-бедствиях знают немногие, в том числе ЧВК, которые занимаются их ликвидацией. В одной из таких компаний, самой крошечной, работает Сю. По какой-то причине он очень придирчиво выбирает поручения, поэтому с деньгами у него вечно проблемы. Сю выручаю бывшая девушка и дочь бывшей начальницы Аяно, а также Кисара, с которой его связывают опасные узы...",
+        description: "Veyron City is a city on a huge floating island in the Pacific Ocean that does not belong to any country. Thanks to the extraction of orgonium, a new source of energy, it is in the center of world attention. And there are so-called \"D—disasters\" - incidents caused by devils. Few people know about D-disasters, including PMCs who are engaged in their elimination. In one of these companies, the tiniest, works with yu. For some reason, he chooses errands very meticulously, so he always has problems with money. Xiu is rescued by the ex-girlfriend and daughter of Ayano's former boss, as well as Kisara, with whom he is connected by dangerous ties...",
         genre: ["", "Demons", "Comedy", "Romance"],
         rate: 9.4,
         age: "16+",
@@ -113,7 +113,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 10,
         title: "Assassins Pride",
-        description: "В мире, где лишь знать владеет маной и ведёт битву с созданиями тьмы, отсутствие способностей ставит юную Мелиду в опасное положение. Под предлогом обучения безжалостный убийца Куфа должен оценить навыки девушки и определить, является ли она истинной наследницей семьи Ангел. Если она не оправдает ожидания, в ход пойдет другой план, итог которого — её смерть..",
+        description: "In a world where only the nobility owns me and leads the battle with the creatures of darkness, the lack of abilities puts young Merida in a dangerous position. Under the pretext of training, the ruthless killer Kufa must evaluate the girl's skills and determine whether she is the true heir of the Angel family. If she does not live up to expectations, another plan will be used, the result of which is her death..",
         genre: ["", "Fantasy"],
         rate: 8.2,
         age: "14+",
@@ -125,7 +125,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 11,
         title: "The Future Diary",
-        description: "Юкитэру Амано простой четырнадцатилетний парень, учащийся в школе. Он привык постоянно всё делать самостоятельно и всю осознанную жизнь старался добиться высот. Но оказывается, что он является довольно замкнутым и не собирается меняться. Подобный образ жизни его полностью устраивает, и он безумно рад, что так происходит. Единственный, с кем он общается, это вымышленный друг по имени Деус. Он является Богом Вселенной и постоянно помогает герою справляться с различными трудностями.",
+        description: "Yukiteru Amano is a simple fourteen-year-old boy studying at school. He was used to constantly doing everything on his own and tried to achieve heights all his conscious life. But it turns out that he is quite closed and is not going to change. Such a lifestyle suits him completely, and he is insanely glad that this is happening. The only one he communicates with is a fictional friend named Deus. He is the God of the universe and constantly helps the hero cope with various difficulties.",
         genre: ["", "Detective", "Psychological", "Supernatural", "Senen", "Thriller", "Action"],
         rate: 7.9,
         age: "18+",
@@ -137,7 +137,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 12,
         title: "Peach Boy Riverside",
-        description: "Давным-давно, в стародавние времена на далёких землях жили-были старик со старухой. Старик собирал в горах хворост, а старуха стирала в реке бельё. Часть пропускаем. В конце концов демон был побеждён. Но на белом свете хватает ему подобных и потому Момотаро отправился в плавание. Ужасное чудовище было повержено и лишь одно омрачало радость от победы… Победитель светился от удовольствия. Давайте предположим… Что, если волны принесли далеко не один персик? Что, если тот персик был всего лишь одним из многих других таких же?",
+        description: "Once upon a time, in ancient times, an old man and an old woman lived in distant lands. The old man was gathering firewood in the mountains, and the old woman was washing clothes in the river. We skip part of it. In the end, the demon was defeated. But there are enough of his kind in the world, and therefore Momotaro set sail. The terrible monster was defeated and only one thing overshadowed the joy of victory… The winner was glowing with pleasure. Let's assume... what if the waves brought far more than one peach? What if that peach was just one of many others like it?",
         genre: ["", "Senen", "Fantasy"],
         rate: 7.2,
         age: "18+",
@@ -149,7 +149,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 13,
         title: "Classroom of the Elite",
-        description: "Кедо Икусей – знаменитое учебное заведение, в котором обучаются невероятно талантливые ребята, способные в будущем стать истинными мастерами в своей сфере деятельности. Академия имеет выдающиеся показатели. Конкурирующие учреждения точно не могут похвастаться стопроцентной занятостью студентов, которые сразу же после завершения курса получают престижные рабочие места. Все старшеклассники здесь не сковываются серьезными правилами и строгой дисциплиной. Они сами понимают ценность учебы, поэтому стараются не отвлекаться на бестолковые развлечения.",
+        description: "Kedo Ikusei is a famous educational institution that trains incredibly talented children who are able to become true masters in their field of activity in the future. The Academy has outstanding performance. Competing institutions definitely cannot boast of one hundred percent employment of students who immediately after completing the course receive prestigious jobs. All high school students here are not constrained by serious rules and strict discipline. They themselves understand the value of studying, so they try not to be distracted by stupid entertainment.",
         genre: ["", "Drama", "Slice of life", "Psychological", "School"],
         rate: 9.6,
         age: "14+",
@@ -161,7 +161,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 14,
         title: "Magical Girl Site",
-        description: "Каждый человек, столкнувшийся с издевательством, мечтает однажды отомстить мерзкому обидчику. Ая Асагири – четырнадцатилетняя особа, изрядно уставшая от постоянных насмешек. Покой девушка не находит ни в домашних стенах, где её поджидает дерзкий брат, ни в школе, где вечно пристают жестокие одноклассники. В определенный момент главная героиня начинает подумывать о самоубийстве. Неожиданно она сталкивается с достаточно интересным сайтом. На нем любознательная посетительница получает магическую палочку и превращается в настоящую волшебницу.",
+        description: "Every person who is faced with bullying dreams of one day taking revenge on a vile abuser. Aya Asagiri is a fourteen–year-old person who is pretty tired of constant ridicule. The girl does not find peace either in her home walls, where her brash brother is waiting for her, or at school, where cruel classmates are always pestering her. At a certain point, the main character begins to think about suicide. Suddenly, she comes across a rather interesting site. On it, an inquisitive visitor receives a magic wand and turns into a real sorceress.",
         genre: ["", "Drama", "Psychological", "Supernatural", "Horrors"],
         rate: 9.0,
         age: "16+",
@@ -173,7 +173,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 15,
         title: "Akame Ga Kill!",
-        description: "Тацуми однажды отправился совместно со своими близкими приятелями в мегаполис, чтобы заработать деньги и избавить родную деревню от нищеты. С ранних лет он тренировался, поэтому в области боев не был новичком и мог с лёгкостью расправиться с любым противником. Но, оказавшись в пределах огромного города, главный герой не только подвергся жестокому обману со стороны одной красавицы, но и потерял все сбережения. Тацуми решил вступить в городскую армию. Он захотел перевоплотиться в капитана, но местный руководитель выкинул прочь амбициозного паренька и объяснил, что так действовать нельзя.",
+        description: "Tatsumi once went together with his close friends to the metropolis to earn money and save his native village from poverty. From an early age, he trained, so he was not a beginner in the field of fighting and could easily deal with any opponent. But, once inside a huge city, the main character was not only subjected to a cruel deception by one beauty, but also lost all his savings. Tatsumi decided to join the city army. He wanted to be reincarnated as a captain, but the local leader threw the ambitious boy away and explained that it was impossible to act like that.",
         genre: ["", "Drama", "Adventures", "Senen", "Fantasy", "Action"],
         rate: 9.0,
         age: "16+",
@@ -185,7 +185,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 16,
         title: "So I'm a Spider, So What?",
-        description: "Я, главная героиня, была обычной школьницей, но неожиданно переродилась в монстра-паука в другом мире. Да ещё и очутилась в подземелье, полном монстров. Мне, вооружённой только смекалкой и безграничным оптимизмом, приходится побеждать монстров намного сильнее себя с помощью ловушек из паутины... Так начинается история выживания одной очень упорной девушки, которая оказалась слабейшим монстром в этом лабиринте!",
+        description: "I, the main character, was an ordinary schoolgirl, but suddenly I was reborn into a spider monster in another world. Yes, and I found myself in a dungeon full of monsters. Armed only with ingenuity and boundless optimism, I have to defeat monsters much stronger than myself with the help of traps from the web... So begins the story of the survival of a very stubborn girl who turned out to be the weakest monster in this maze!",
         genre: ["", "Detective", "Comedy", "Magic", "Adventures", "Fantasy", "Action"],
         rate: 6.5,
         age: "14+",
@@ -197,7 +197,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 17,
         title: "The daily life of an immortal King",
-        description: "Юный гений среди волшебников, мальчик Ван Лин, уже в 6ти летнем возрасте смог одолеть могучего демона. Ради его защиты было решено не афишировать его способности и дать возможность жить обычной жизнью. Ван Лин не амбициозен, его не привлекает слава, богатства, да и перспектива стать могучим магом тоже.",
+        description: "A young genius among wizards, the boy Wang Lin, was able to defeat a mighty demon at the age of 6. For the sake of his protection, it was decided not to advertise his abilities and give him the opportunity to live an ordinary life. Wang Lin is not ambitious, he is not attracted to fame, wealth, and the prospect of becoming a powerful magician, too.",
         genre: ["", "Demons", "Comedy", "Slice of life", "Adventures", "Fantasy", "School"],
         rate: 7.0,
         age: "0+",
@@ -209,7 +209,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 18,
         title: "The Misfit of Demon King Academy",
-        description: "Жестокий владыка тьмы, поверженный две тысячи лет назад, возродился... Однако в академии, где учат кандидатов во владыки тьмы, ему поставили оценку… «не годен»?! Он уничтожал людей, духов и даже богов, но бесконечная война наскучила ему, и владыка тьмы Анос Волдигод переродился с мечтой о спокойном мире. Только две тысячи лет спустя его ждали крайне ослабевшие от мирной жизни потомки и пришедшая в полный упадок магия.",
+        description: "The cruel lord of darkness, defeated two thousand years ago, has been reborn... However, at the academy, where they teach candidates for the lords of darkness, he was rated… \"not fit\"?! He destroyed people, spirits and even gods, but the endless war bored him, and the lord of darkness, the Announcement of Voldigad, was reborn with a dream of a peaceful world. Only two thousand years later, his descendants, who were extremely weakened from peaceful life, and magic that had fallen into complete decay, were waiting for him.",
         genre: ["", "Demons", "Magic", "Fantasy", "School", "Action"],
         rate: 8.0,
         age: "14+",
@@ -221,7 +221,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 19,
         title: "The Pet Girl of Sakurasou",
-        description: "В старшей школе искусств университета Суймэй есть множество общежитий, а есть доходный дом «Сакура». Если в общежитиях действуют строгие правила, то в «Сакуре» можно все, недаром ее местное прозвище – «сумасшедший дом». Так как в искусстве гений и сумасшествие всегда где-то рядом, то обитатели «вишневого сада» - талантливые и интересные ребята, слишком уж выбивающиеся из «болота».",
+        description: "There are many dormitories at the Suimei University High School of Arts, and there is a Sakura apartment building. If strict rules apply in dormitories, then everything is possible in Sakura, no wonder its local nickname is \"madhouse\". Since genius and madness are always somewhere nearby in art, the inhabitants of the \"cherry orchard\" are talented and interesting guys who are too much out of the \"swamp\".",
         genre: ["", "Drama", "Comedy", "Slice of life", "Romance", "School"],
         rate: 8.0,
         age: "14+",
@@ -233,7 +233,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 20,
         title: "Black Clover",
-        description: "Ещё младенцами в один и тот же день Аста с Юно были подброшены под двери церкви одной отдалённой деревни. Годы шли, мальчики росли, а миром вокруг них правила магия. Юно оказался по-настоящему одарённым чародеем, а Аста не мог наколдовать и простейшее из заклинаний. На свой пятнадцатый день рождения юноши получат свою собственную книгу заклинаний — гримуар. Лучшие друзья в прошлом, а ныне соперники… Они делят одну мечту на двоих. Каждый из них хочет стать Королём-чародеем. А сдаваться — это не про них!",
+        description: "As infants, on the same day, Asta and Yuno were thrown under the doors of a church in a remote village. As the years passed, the boys grew up, and magic ruled the world around them. Yuno turned out to be a truly gifted magician, and Asta could not conjure even the simplest of spells. On their fifteenth birthday, the boys will receive their own spell book — a grimoire. Best friends in the past, and now rivals… They share the same dream for two. Each of them wants to become a Sorcerer King. And giving up is not about them!",
         genre: ["", "Comedy", "Magic", "Senen", "Fantasy", "Action"],
         rate: 8.0,
         age: "14+",
@@ -245,7 +245,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 21,
         title: "Mieruko-chan",
-        description: "Повседневная жизнь старшеклассницы Мико кардинально меняется, когда она пробуждает в себе шестое чувство и начинает видеть души мёртвых и призраков. Она не может перестать видеть ужасных, отвратительных монстров и не знает причину проявления этих способностей. Несмотря на то, что Мико сильно испугана, она продолжает свою будничную жизнь как ни в чём не бывало и делает вид, что не замечает кошмара, который её окружает. Не сойти с ума девушке помогает её лучшая подруга Хана. С этого момента Мико предстоит пройти через множество трудностей и узнать подробности загадочных явлений, происходящих с ней.",
+        description: "The daily life of a high school student Miko changes dramatically when she awakens a sixth sense in herself and begins to see the souls of the dead and ghosts. She cannot stop seeing terrible, disgusting monsters and does not know the reason for the manifestation of these abilities. Despite the fact that Miko is very scared, she continues her everyday life as if nothing had happened and pretends not to notice the nightmare that surrounds her. Not to go crazy girl helps her best friend Hana. From this moment on, Miko will have to go through many difficulties and learn the details of the mysterious phenomena happening to her.",
         genre: ["", "Comedy", "Supernatural", "Horrors"],
         rate: 8.7,
         age: "14+",
@@ -257,7 +257,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 22,
         title: "Rascal Does Not Dream of Bunny Girl Senpai",
-        description: "Азусагава Сакута, сидя в обычной городской библиотеке, сталкивается с невероятно загадочной и одновременно безумно привлекательной незнакомкой. Она облачилась в откровенный костюм зайца, который полностью противоречит окружающей обстановке. В подобных нарядах в читальном зале однозначно еще не появлялись. Странноватая особа представляется, как Сакураджиме Май. Её совершенно не волнует, что подумает толпа и, какие вообще существуют библиотечные правила. У девушки имеется вопрос намного важнее, чем осуждение и ворчание местного работника.",
+        description: "Azusagawa Sakura, sitting in an ordinary city library, encounters an incredibly mysterious and at the same time insanely attractive stranger. She dressed in a revealing bunny costume, which completely contradicts the surrounding environment. They have definitely not appeared in such outfits in the reading room yet. A strange person appears as Sakurajime Mai. She doesn't care at all what the crowd thinks and what library rules exist at all. The girl has a question much more important than the condemnation and grumbling of a local employee.",
         genre: ["", "Comedy", "Romance", "Supernatural", "School"],
         rate: 9.3,
         age: "14+",
@@ -269,7 +269,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 23,
         title: "Your Lie in April",
-        description: "Косэй Арима - виртуозный пианист, как говорили его наставники. С малого возраста он играл сложнейшие композиции благодаря своему чутью, он делал все точно, как прописано в нотах, даже механически. Выиграв немало конкурсов, знатоки все еще говорили, что это не талант, а дисциплина и упорство, а мальчик просто быстро справился с нагрузками. Как бы то ни было, он признавался одним из лучших пианистов в своей категории. Когда ему исполнилось 11 лет, умерла мама, являющаяся главным наставником. После этой трагедии мальчик больше не подходил к роялю, он перестал чувствовать музыку, которую играет. Он запирается в своем мире, где есть место только для двух старых друзей - Цубаки и Рёта.",
+        description: "Kosei Arima is a virtuoso pianist, as his mentors said. From a young age, he played the most complex compositions thanks to his flair, he did everything exactly as prescribed in the notes, even mechanically. Having won a lot of competitions, experts still said that it was not talent, but discipline and perseverance, and the boy just quickly coped with the loads. Anyway, he was recognized as one of the best pianists in his category. When he turned 11, his mother, who was the main mentor, died. After this tragedy, the boy no longer approached the piano, he stopped feeling the music he was playing. He locks himself in his world, where there is only room for two old friends - Tsubaki and Ryota.",
         genre: ["", "Drama", "Music", "Romance", "Senen", "School"],
         rate: 9.2,
         age: "14+",
@@ -281,7 +281,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 24,
         title: "Noragami",
-        description: "Ято бродячий японский бог, недавно лишившийся абсолютно всего. Главный герой спустился на землю и старается сделать всё возможное, чтобы выжить. Оказывается, что каждому божественному созданию необходимы люди, верующие в него. Это прибавляет невероятное количество сил, но для Ято всё складывается слишком печально. У него нет почитателей и в добавок его бросает Мая, являющаяся его оружием. Приходится прятаться от демонов, старающихся убить любого, кто окажется на их пути.",
+        description: "Like a wandering Japanese god who recently lost absolutely everything. The main character has come down to earth and is trying to do everything possible to survive. It turns out that every divine creature needs people who believe in him. This adds an incredible amount of strength, but for that everything is too sad. He has no admirers and in addition he is thrown by Maya, who is his weapon. You have to hide from demons trying to kill anyone who gets in their way.",
         genre: ["", "Comedy", "Adventure", "Supernatural", "Senen", "Action"],
         rate: 8.9,
         age: "14+",
@@ -293,7 +293,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 25,
         title: "Cyberpunk: Edgerunners",
-        description: "Найт-Сити — город будущего, оснащённый всевозможными новейшими технологиями. Город, где модификация тела не просто мечты безумных учёных, а реальность сродни обычной покупке. Именно там живёт наш юный герой, для которого этот город не является чем-то невообразимым, он знает всю его настоящую суть, где выживание не просто слово, а истинное лицо этого мира. В один миг, потеряв всё, что имел, парень не опускает рук и в борьбе за выживание становится наёмником по прозвищу Киберпанк.",
+        description: "Night City is the city of the future, equipped with all kinds of the latest technologies. A city where body modification is not just the dreams of mad scientists, but the reality is akin to an ordinary purchase. It is there that our young hero lives, for whom this city is not something unimaginable, he knows all its real essence, where survival is not just a word, but the true face of this world. In an instant, having lost everything he had, the guy does not give up and in the struggle for survival becomes a mercenary nicknamed Cyberpunk.",
         genre: ["", "Fantasy", "Action"],
         rate: 9.3,
         age: "16+",
@@ -305,7 +305,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 26,
         title: "Boku dake ga Inai Machi",
-        description: "Обыкновенный тридцатилетний молодой человек, неудачник в жизни Сатору Фуджинума. Ему почти тридцать, в этом возрасте многие уже управляют фирмами и складывают хорошие счета, герой считает копейки, полученные на развозе пиццы и рисует мангу, в чем он не преуспевает. Но всё не просто, в невзрачном парне кроются большие способности, он обладает «возрождением». Он имеет возможность отмотать часы времени обратно и спасти кого-то от гибели. Дар может проявиться когда угодно, но это не мешает парню помогать людям, хотя порой это проходит как набор случайных событий, от которых остаются травмы.",
+        description: "An ordinary thirty-year-old young man, a loser in the life of Satoru Fujinuma. He is almost thirty, at this age many already run companies and add up good accounts, the hero counts the pennies received on pizza delivery and draws manga, in which he does not succeed. But everything is not simple, a nondescript guy has great abilities, he has a \"rebirth\". He has the ability to rewind the clock of time back and save someone from death. The gift can manifest itself at any time, but this does not prevent the guy from helping people, although sometimes it passes as a set of random events that leave injuries.",
         genre: ["", "Detective", "Psychological", "Supernatural", "Seinen"],
         rate: 8.0,
         age: "14+",
@@ -317,7 +317,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 27,
         title: "Grand Blue",
-        description: "Сюжетная линия решает показать зрителям интересную историю о ярком солнце, теплом пляже, завораживающих пейзажах и, конечно же, компании веселых приятелей, которые не боятся погружаться в водную гладь и доверять ей собственные жизни. Конечно же, дайвингу невозможно научиться за минуту. Чтобы стать настоящим профессионалом, необходимо долго и упорно тренироваться, а еще совершенно не бояться глубины. Если нет внутренней силы и большого желания – можно смело вычеркивать себя из списка опытных специалистов.",
+        description: "The storyline decides to show the audience an interesting story about the bright sun, a warm beach, fascinating landscapes and, of course, the company of cheerful friends who are not afraid to dive into the water surface and trust her with their own lives. Of course, diving is impossible to learn in a minute. To become a true professional, you need to train long and hard, and also not be afraid of depth at all. If there is no inner strength and a great desire, you can safely cross yourself off the list of experienced specialists.",
         genre: ["", "Comedy", "Slice of life", "Seinen"],
         rate: 9.5,
         age: "14+",
@@ -329,7 +329,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 28,
         title: "Neon Genesis Evangelion",
-        description: "Проходит пятнадцать лет после обрушения на Землю масштабной необъяснимой катастрофы. Гигантское количество людей погибло в ходе воцарившегося хаоса, а выжившие счастливчики даже подумать не могли, что страшное происшествие является лишь началом цепочки испытаний. В определенный момент планета подверглась атаке огромных существ, называемых Ангелами. Оружием, способным дать достойный отпор монстрам, стали боевые роботы категории Евангелион, созданные гениальными учеными при помощи современных технологий. Но управлять уникальными биороботами могли только отдельные пилоты, умеющие преодолевать процедуру синхронизации с Евангелионом.",
+        description: "Fifteen years have passed since a large-scale unexplained catastrophe hit the Earth. A huge number of people died during the chaos that reigned, and the lucky survivors could not even think that the terrible incident was just the beginning of a chain of trials. At some point, the planet was attacked by huge creatures called Angels. The weapons capable of giving a worthy rebuff to monsters were the combat robots of the Evangelion category, created by brilliant scientists with the help of modern technologies. But only individual pilots who were able to overcome the synchronization procedure with the Evangelion could control the unique biorobots.",
         genre: ["", "Madness", "Drama", "Furs", "Psychological", "Fantasy", "Action"],
         rate: 9.0,
         age: "14+",
@@ -341,7 +341,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 29,
         title: "Date A Live IV",
-        description: "Человеческая планета подвергается мощной космической атаке. Небеса буквально сотрясаются от ужасающих разрядов. Вскоре на Земле появляются неизвестные существа, которых называют духами. Возникновение незваных гостей ставит по серьезную угрозу существование людей. Правительство в срочном порядке сочиняет план, направленный на создание секретной организации «Ротатоск». Участники сообщества обязаны остановить стремительное распространение пришельцев и защитить невинных жителей. Методом эффективной борьбы становится элементарная романтика.",
+        description: "The human planet is being subjected to a powerful cosmic attack. The heavens are literally shaking with terrifying discharges. Soon unknown beings appear on Earth, which are called spirits. The occurrence of uninvited guests poses a serious threat to the existence of people. The government is urgently composing a plan aimed at creating a secret organization \"Rotatosk\". Community members are obliged to stop the rapid spread of aliens and protect innocent residents. Elementary romance becomes the method of effective struggle.",
         genre: ["", "Harem", "Comedy", "Furs", "Romance", "Fantasy", "School"],
         rate: 9.8,
         age: "16+",
@@ -353,7 +353,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 30,
         title: "Date A Live III",
-        description: "Человеческая планета подвергается мощной космической атаке. Небеса буквально сотрясаются от ужасающих разрядов. Вскоре на Земле появляются неизвестные существа, которых называют духами. Возникновение незваных гостей ставит по серьезную угрозу существование людей. Правительство в срочном порядке сочиняет план, направленный на создание секретной организации «Ротатоск». Участники сообщества обязаны остановить стремительное распространение пришельцев и защитить невинных жителей. Методом эффективной борьбы становится элементарная романтика.",
+        description: "The human planet is being subjected to a powerful cosmic attack. The heavens are literally shaking with terrifying discharges. Soon unknown beings appear on Earth, which are called spirits. The occurrence of uninvited guests poses a serious threat to the existence of people. The government is urgently composing a plan aimed at creating a secret organization \"Rotatosk\". Community members are obliged to stop the rapid spread of aliens and protect innocent residents. Elementary romance becomes the method of effective struggle.",
         genre: ["", "Harem", "Comedy", "Furs", "Romance", "Fantasy", "School"],
         rate: 8.9,
         age: "16+",
@@ -365,7 +365,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 31,
         title: "The Rising of the Shield Hero",
-        description: "Темные силы пробудились и готовы напасть на Мальмарк, параллельную вселенную, в городах которой всегда светит солнце, и люди улыбаются на улицах. Как гласило пророчество, только четыре героя способны спасти мир от разрушительных волн, готовых уничтожить все население. Силы у обычных воинов постепенно угасают, они близки к поражению. Чтобы отыскать тех самых героев, единственных, кто смогут одолеть нечисть, отважные горожане отправляются в другое измерение, где, предположительно, могут обитать спасители. Они слышат мольбы и отправляются в охваченный город, чтобы спасти невинных и беззащитных людей. Они вооружены стрелами, мечами и магическими силами.",
+        description: "The dark forces have awakened and are ready to attack Malmark, a parallel universe in whose cities the sun is always shining and people are smiling in the streets. As the prophecy said, only four heroes are able to save the world from the destructive waves that are ready to destroy the entire population. The strength of ordinary warriors is gradually fading, they are close to defeat. In order to find the very heroes, the only ones who can overcome the evil spirits, the brave townspeople go to another dimension, where, presumably, the saviors can live. They hear the pleas and go to the engulfed city to save innocent and defenseless people. They are armed with arrows, swords and magical powers.",
         genre: ["", "Drama", "Comedy", "Adventure", "Romance", "Seinen", "Fantasy", "Action"],
         rate: 9.3,
         age: "14+",
@@ -377,7 +377,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 32,
         title: "The Rising of the Shield Hero Season 2",
-        description: "Неделя остаётся до начала очередной Волны, и команда Наофуми не теряет ни единой минуты попусту. Однако, когда на деревню Луролона начинается нападение, время до конца Волны останавливается, и четыре героя вновь собираются у королевы Мирелии Кью Мелромарк для краткого инструктажа по произошедшему. Королева предполагает, что все эти странные события как-то связаны с Духом Черепахи — опасным существом, которое пробудилось ото сна и вернулось, чтобы вновь сеять хаос и разрушение. Было принято решение разработать план по усмирению Духа Черепахи, но из четырёх прославленных героев, только проклятый герой щита соглашается помочь.",
+        description: "A week remains until the start of the next Wave, and Naofumi's team does not waste a single minute in vain. However, when an attack begins on the village of Lurolona, time stops until the end of the Wave, and the four heroes gather again at Queen Mirelia Kew Melromark for a brief briefing on what happened. The Queen suggests that all these strange events are somehow connected with the Spirit of the Turtle - a dangerous creature that woke up from a dream and returned to wreak havoc and destruction again. It was decided to develop a plan to pacify the Spirit of the Turtle, but of the four famous heroes, only the cursed hero of the shield agrees to help.",
         genre: ["", "Drama", "Adventure", "Fantasy", "Action"],
         rate: 7.7,
         age: "14+",
@@ -389,7 +389,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 33,
         title: "Naruto",
-        description: "Существует мир, что никак не схож с нашим, современным и развивающимся. Этот мир – далекий от стереотипа, что привыкли лицезреть каждый день, когда встаем на тягостную работу или же на учебу. В данном \"неизведанном\" для нас обществе, что развивается странным образом, далекое средневековье, со своими устоявшимися законами и порядками, с лордами и купцами, совмещается со странными людьми, что кличут себя как «ниндзя», могут сидеть на диванчике и смотреть старенький телевизор по выходным. Каждый ниндзя, что живет в этом мире, покорил три великих пути – путь тела, иллюзии и скрытого – тайдзюцу, ниндзюцу и гендзюцу. Каждая из дисциплин имеет уникальные особенности и особые задачи.",
+        description: "There is a world that is in no way similar to ours, modern and developing. This world is far from the stereotype that we are used to seeing every day when we get up for a painful job or study. In this \"unknown\" society for us, which is developing in a strange way, the distant Middle Ages, with its well-established laws and orders, with lords and merchants, is combined with strange people who call themselves \"ninja\", can sit on the couch and watch an old TV on weekends. Every ninja that lives in this world has conquered three great paths – the path of the body, illusion and hidden – taijutsu, ninjutsu and genjutsu. Each of the disciplines has unique features and special tasks.",
         genre: ["", "Martial arts", "Comedy", "Adventures", "Senen", "Superpower", "Action"],
         rate: 9.2,
         age: "16+",
@@ -401,7 +401,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 34,
         title: "Code Geass: Hangyaku no Lelouch",
-        description: "Данное аниме расскажет историю про молодого Лелуш, который является наследником престола императора. Из-за тяжелой войны, он потерял всю свою семью, став сиротой. Повествование берёт начало, когда Британия захватывает треть часть мира, родина Лелуша – Япония, становится маленькой страной, которую прозвали «Зоной 13». Мальчик, на могиле родителей, дает обещание, что будет мстить за их смерть. Однажды, во время одной из драк, главный герой встречает не совсем обычную девушку, которая представляется С.С., она предлагает ему дар, называемый «Гиас» – способность подчинять волю других людей, как раз соответствующее его роду. И он принимает решение вступить в сопротивление. Теперь ему придется вести двойную жизнь – студента в его академии и таинственного бойца в маске на войне. Хоть это ему будет даваться не легко, ведь его лучший друг, который всегда поддерживал, направлял на правильный путь, переходит на противоположную сторону.",
+        description: "This anime will tell a story about a young Lelouch, who is the heir to the throne of the emperor. Because of the hard war, he lost his entire family, becoming an orphan. The narrative begins when Britain captures a third of the world, the homeland of Lelouch – Japan, becomes a small country, which is nicknamed \"Zone 13\". The boy, at the grave of his parents, makes a promise that he will avenge their death. One day, during one of the fights, the main character meets an unusual girl who introduces herself as S.S., she offers him a gift called \"Gias\" – the ability to subordinate the will of other people, just corresponding to his kind. And he decides to join the resistance. Now he will have to lead a double life – a student at his academy and a mysterious masked fighter in the war. Although it will not be easy for him, because his best friend, who has always supported, guided him on the right path, goes to the opposite side.",
         genre: ["", "Military", "Furs", "Superpower", "Fantasy", "School", "Action"],
         rate: 8.0,
         age: "18+",
@@ -413,7 +413,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 35,
         title: "Bleach: Thousand-Year Blood War",
-        description: "Конец близок. \"Готей 13\" под угрозой полного уничтожения. Старый могущественный враг всех шинигами вновь объявляет войну Обществу душ. И это не кто иной, как сами квинси, возглавляемые новым императором Ванденрейха, зовущим себя Яхве. И цель его ясна, как блеск клинка занпакто. Он хочет убить Короля душ, захватить трон и на руинах построить свою новую империю. Так пламя тысячелетней кровавой войны разгорается с новой силой, а грядущая битва потрясёт оба мира и изменит судьбы многих. Насколько тяжёлым будет это испытание? А такие ли они хорошие, эти шинигами? И какой может быть цена победы в однажды начатой войне? Придётся узнать ответ…",
+        description: "The end is near. \"Gotei 13\" is under threat of complete destruction. The old powerful enemy of all Shinigami once again declares war on the Society of Souls. And this is none other than the Quincy themselves, led by the new emperor of Vandenreich, who calls himself Yahweh. And its purpose is as clear as the shine of a zanpakto blade. He wants to kill the King of Souls, seize the throne and build his new empire on the ruins. So the flame of a thousand-year bloody war is flaring up with renewed vigor, and the coming battle will shake both worlds and change the fate of many. How hard will this test be? Are they that good, these shinigami? And what can be the price of victory in a war once started? I'll have to find out the answer…",
         genre: ["", "Adventures", "Fantasy", "Action"],
         rate: 9.6,
         age: "18+",
@@ -425,7 +425,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 36,
         title: "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
-        description: "text",
+        description: "The continuation of the adventures of Tanjiro and his constant companions: the demon sister Nezuko, the ever-whining Zenitsu and the daredevil Inosuke. This time, the \"pillar of sound\" Tengen Uzui takes them with him on a mission to the Red Light District, where people have been disappearing lately. The reason for this is most likely demons. So who is behind all the disappearances, and will our heroes be able to cope with it?",
         genre: ["", "Demons", "Historical", "Supernatural", "Senen", "Action"],
         rate: 9.6,
         age: "18+",
@@ -437,7 +437,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 37,
         title: "Date A Live II",
-        description: "На планету продолжается нашествие, но земляне со всей готовностью наносят ответный удар. Японский школьник Шидо Ицука - последняя надежда человечества, ведь только он в достаточной мере обладает умением очарования и уничтожает одного инопланетянина за другим. Дело в том, что для маскировки в человеческом мире они принимают обличье милых девушек. Как раз отловом таких и занимает парень, достигнувший высшего уровня соблазнения существ стороны противника. Кому теперь нужны пулеметы и бомбы, когда есть сила любви?",
+        description: "The invasion of the planet continues, but the earthlings are ready to strike back. Japanese schoolboy Shido Itsuka is the last hope of mankind, because only he has enough charm skills and destroys one alien after another. The fact is that in order to disguise themselves in the human world, they take the guise of cute girls. Just catching such takes a guy who has reached the highest level of seduction on the part of the enemy. Who needs machine guns and bombs now, when there is the power of love?",
         genre: ["", "Harem", "Comedy", "Furs", "Romance", "Fantasy", "School"],
         rate: 8.7,
         age: "16+",
@@ -449,7 +449,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 38,
         title: "Code Geass: Hangyaku no Lelouch R2",
-        description: "Уже прошел один год после событий Черного Восстания и предполагаемой смерти Зеро. Британия присвоила Зоне 11 статус исправительной колонии, где Одиннадцатых унижали с помощью грубой силы и выбивали все мысли о мятежах и попытках нового восстания.",
+        description: "One year has already passed since the events of the Black Uprising and the alleged death of Zero. Britain assigned Zone 11 the status of a penal colony, where the Eleventh were humiliated with the help of brute force and knocked out all thoughts of riots and attempts at a new uprising.",
         genre: ["", "Military", "Drama", "Furs", "Superpower", "Fantasy", "Action"],
         rate: 9.5,
         age: "18+",
@@ -461,7 +461,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 39,
         title: "Horimiya",
-        description: "У старшеклассницы Кёко Хори, похоже, есть всё, что только можно пожелать, ведь она умница, красавица и любимица всего класса. Однако даже у идеальных на первый взгляд людей бывают секреты, и один такой есть у Хори: девушка страшно боится, что её одноклассники прознают о том, что вне стен школы она превращается в настоящую домохозяйку, на которую вечно пропадающие на работе родители скинули все домашние хлопоты и младшего брата Соту. Однажды на пороге её дома появляется незнакомец, который держит за руку поранившегося Соту… а ещё он знает Хори! Тут же выясняется, что этот парень на самом деле невзрачный одноклассник Хори, Миямура. Что же произойдёт после встречи популярной красавицы и «серой мышки»? Дружба, любовь?.. Встречайте школьную комедию, полную энергии юности!",
+        description: "Kyoko Hori, a high school student, seems to have everything you could wish for, because she is smart, beautiful and a favorite of the whole class. However, even seemingly perfect people have secrets, and Hori has one: the girl is terribly afraid that her classmates will find out that outside of school she turns into a real housewife, on whom parents who are always disappearing at work have thrown off all the household chores and her younger brother Sotu. One day, a stranger appears on her doorstep, holding the hand of an injured Sotu... and he also knows Hori! It immediately turns out that this guy is actually Hori's nondescript classmate, Miyamura. What will happen after the meeting of the popular beauty and the \"gray mouse\"? Friendship, love?.. Meet the school comedy full of the energy of youth!",
         genre: ["", "Comedy", "Slice of life", "Romance", "Senen", "School"],
         rate: 9.4,
         age: "18+",
@@ -473,7 +473,7 @@ export const animeData: IAnimeItem[] = [
     {
         id: 40,
         title: "Kaguya-sama: Love is War",
-        description: "Лидерство в подростковой сфере имеет огромнейшее значение. Оно наделяет уверенностью и дает уважение со стороны сверстников. Ребятам, отличающимся выдающимся интеллектом, заполучить привлекательный титул довольно легко. Но разряд некого гения не гарантирует, что к ногам подростка моментально падут все блага. В знаменитой академии Сюити, относящейся к престижным заведениям, учатся довольно способные парни и девчонки. Практически каждый здесь наделен уникальным даром. Хотя даже в «гениальной» компании может найтись поистине недосягаемая личность.",
+        description: "Leadership in the teenage sphere is of the greatest importance. It gives confidence and gives respect from peers. It is quite easy for guys with outstanding intelligence to get an attractive title. But the discharge of a certain genius does not guarantee that all the benefits will instantly fall at the feet of a teenager. In the famous Shuichi Academy, which belongs to prestigious institutions, quite capable boys and girls study. Almost everyone here is endowed with a unique gift. Although even in a \"brilliant\" company, there may be a truly unattainable person.",
         genre: ["", "Comedy", "Psychological", "Romance", "Seinen", "School"],
         rate: 9.1,
         age: "16+",
