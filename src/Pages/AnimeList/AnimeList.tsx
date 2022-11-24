@@ -112,7 +112,7 @@ export default function AnimeList() {
                                 <div className="select_year__inputs">
                                     <div className="min">
                                         <label className="select_year__inputs__text" htmlFor="minYear">{minYear}</label>
-                                        <input type="range" id="minYear" name="minYear"
+                                        <input className="min-input" type="range" id="minYear" name="minYear"
                                                min="1960" max="2022" step="1"
                                                value={minYear} onChange={(e) => {
                                             setMinYear(Number(e.target.value))
@@ -122,7 +122,7 @@ export default function AnimeList() {
 
                                     <div className="max">
                                         <label className="select_year__inputs__text" htmlFor="maxYear">{maxYear}</label>
-                                        <input type="range" id="maxYear" name="maxYear"
+                                        <input className="max-input" type="range" id="maxYear" name="maxYear"
                                                min="1991" max="2022" step="1"
                                                value={maxYear} onChange={(e) => {
                                             setMaxYear(Number(e.target.value))
