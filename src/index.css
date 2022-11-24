@@ -171,6 +171,7 @@
 
 .card__wrap {
   position: relative;
+  transition: all 0.2s ease-in-out;
 }
 
 .poster {
@@ -215,12 +216,14 @@
 }
 
 .card__img {
+  display: block;
   object-fit: fill;
   width: 100%;
   height: 355px;
   transition: all 0.2s ease-in-out;
 }
-.card__img:hover {
+
+.card__wrap:hover {
   transform: translateY(-1rem);
   box-shadow: 0 0 30px 2px rebeccapurple;
 }
@@ -369,6 +372,7 @@
 
 .card__wrap {
   position: relative;
+  transition: all 0.2s ease-in-out;
 }
 
 .poster {
@@ -413,12 +417,14 @@
 }
 
 .card__img {
+  display: block;
   object-fit: fill;
   width: 100%;
   height: 355px;
   transition: all 0.2s ease-in-out;
 }
-.card__img:hover {
+
+.card__wrap:hover {
   transform: translateY(-1rem);
   box-shadow: 0 0 30px 2px rebeccapurple;
 }
