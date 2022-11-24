@@ -220,6 +220,7 @@
   transition: all 0.2s ease-in-out;
 }
 .card__img:hover {
+  transform: translateY(-1rem);
   box-shadow: 0 0 30px 2px rebeccapurple;
 }
 
@@ -416,6 +417,7 @@
   transition: all 0.2s ease-in-out;
 }
 .card__img:hover {
+  transform: translateY(-1rem);
   box-shadow: 0 0 30px 2px rebeccapurple;
 }
 
@@ -518,7 +520,8 @@
     flex-direction: column;
   }
   .animePage-img {
-    max-width: 450px;
+    max-width: 300px;
+    max-height: 400px;
   }
 }
 .error-message {

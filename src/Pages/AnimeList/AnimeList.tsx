@@ -39,7 +39,7 @@ export default function AnimeList() {
                         </div>
                         <div className="main__content_search">
                             <div className="search-menu">
-                                <div className="select_anime">
+                                <div className="select_genre">
                                     <select name="anime" id="anime-select" value={genreAnime} onChange={(e) => {
                                         setGenreAnime(e.target.value)
                                     }}>
