@@ -50,6 +50,21 @@ html, body {
   flex: 1;
 }
 
+//scrollbar
+body::-webkit-scrollbar {
+  width: 0.45rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #333333;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: mediumpurple;
+  border-radius: 1rem;
+  border: 2px solid #333333;
+}
+
 //media
 
 @media screen and (max-width: 1300px) {
@@ -70,6 +85,7 @@ html, body {
     width: 150px;
   }
 }
+
 @media screen and (max-width: 1250px) {
   .card__img {
     height: 375px;

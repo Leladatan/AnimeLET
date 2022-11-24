@@ -784,6 +784,20 @@ html, body {
   flex: 1;
 }
 
+body::-webkit-scrollbar {
+  width: 0.45rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #333333;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: mediumpurple;
+  border-radius: 1rem;
+  border: 2px solid #333333;
+}
+
 @media screen and (max-width: 1300px) {
   .main__content_cards {
     grid-template-columns: 1fr 1fr 1fr 1fr;
