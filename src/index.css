@@ -256,7 +256,7 @@
 }
 
 .max-input, .min-input {
-  background-color: #333;
+  background-color: #404040;
 }
 
 input[type=range] {
@@ -536,7 +536,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .max-input, .min-input {
-  background-color: #333;
+  background-color: #404040;
 }
 
 input[type=range] {
