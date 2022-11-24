@@ -150,8 +150,10 @@
   gap: 2rem;
 }
 .main__content_cards {
+  padding-top: 1.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .card {
@@ -159,13 +161,12 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin: 1rem 0.5rem;
 }
 .card__info {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 0 1rem 2rem;
 }
 
 .card__wrap {
@@ -347,8 +348,10 @@
   gap: 2rem;
 }
 .main__content_cards {
+  padding-top: 1.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .card {
@@ -356,13 +359,12 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin: 1rem 0.5rem;
 }
 .card__info {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 0 1rem 2rem;
 }
 
 .card__wrap {

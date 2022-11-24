@@ -35,7 +35,6 @@
 
 
 //seacrh
-
 .search-menu {
   display: flex;
   align-items: center;
@@ -74,8 +73,10 @@
   gap: 2rem;
 
   &_cards {
+    padding-top: 1.5rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
@@ -84,13 +85,12 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  margin: 1rem 0.5rem;
 
   &__info {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: 0 1rem 2rem;
   }
 }
 
@@ -138,13 +138,6 @@
   max-width: 200px;
   white-space: nowrap;
 }
-
-//.card__description {
-//  text-overflow: ellipsis;
-//  overflow: hidden;
-//  max-width: 200px;
-//  white-space: nowrap;
-//}
 
 //card img
 .card__img {
