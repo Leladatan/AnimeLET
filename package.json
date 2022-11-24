@@ -6,19 +6,22 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier": "prettier --write ./"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.3",
-    "sass": "^1.56.1"
+    "sass": "^1.56.1",
+    "vite-plugin-svgr": "^2.2.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
+    "prettier": "^2.8.0",
     "typescript": "^4.6.4",
     "vite": "^3.2.3"
   }

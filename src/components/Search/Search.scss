@@ -1,0 +1,30 @@
+.search-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.search_bar {
+  color: mediumpurple;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  width: 400px;
+  height: 50px;
+  border: 3px solid mediumpurple;
+  background-color: #252525;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #333;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: mediumpurple;
+    opacity: 0.6;
+  }
+}

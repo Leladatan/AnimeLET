@@ -1,0 +1,27 @@
+.footer {
+  border-top: 2px solid #cdcdcd;
+  padding: 1rem 0;
+  background-color: #333;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer__list_link {
+  color: #cdcdcd;
+}
+
+.name_project__text {
+  color: #cdcdcd;
+}
