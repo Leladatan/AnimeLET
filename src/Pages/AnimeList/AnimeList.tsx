@@ -8,9 +8,12 @@ import {useState} from "react";
 export default function AnimeList() {
 
     const [nameAnime, setNameAnime] = useState<string>('')
-    const [animeAgeRateSelect, setAnimeAgeRateSelect] = useState('')
-    const [genreAnime, setGenreAnime] = useState('')
-    const [rateStarAnime, setRateStarAnime] = useState('')
+    const [animeAgeRateSelect, setAnimeAgeRateSelect] = useState<string>('')
+    const [genreAnime, setGenreAnime] = useState<string>('')
+    const [rateStarAnime, setRateStarAnime] = useState<string>('')
+
+    const [minYear, setMinYear] = useState<number>(1990)
+    const [maxYear, setMaxYear] = useState<number>(2022)
 
     let filteredNameAnime = animeData.filter(anime => {
         if (anime.age.includes(animeAgeRateSelect) && genreAnime === "" && rateStarAnime === ""
@@ -21,6 +24,7 @@ export default function AnimeList() {
         return anime.title.toLowerCase().includes(nameAnime.toLowerCase())
             && anime.age.includes(animeAgeRateSelect)
             && anime.genre.includes(genreAnime)
+            && (anime.year >= minYear && anime.year <= maxYear)
     })
 
     if (rateStarAnime === "up") {
@@ -34,6 +38,8 @@ export default function AnimeList() {
         setAnimeAgeRateSelect('')
         setGenreAnime('')
         setRateStarAnime('')
+        setMinYear(1990)
+        setMaxYear(2022)
     }
 
     return (
@@ -101,6 +107,27 @@ export default function AnimeList() {
                                 </div>
                             </div>
                             <div className="btns">
+                                <div className="select_year__inputs">
+                                    <div className="min">
+                                        <label className="select_year__inputs__text" htmlFor="minYear">{minYear}</label>
+                                        <input type="range" id="minYear" name="minYear"
+                                               min="1960" max="2022" step="1"
+                                               value={minYear} onChange={(e) => {
+                                            setMinYear(Number(e.target.value))
+                                        }}
+                                        />
+                                    </div>
+
+                                    <div className="max">
+                                        <label className="select_year__inputs__text" htmlFor="maxYear">{maxYear}</label>
+                                        <input type="range" id="maxYear" name="maxYear"
+                                               min="1991" max="2022" step="1"
+                                               value={maxYear} onChange={(e) => {
+                                            setMaxYear(Number(e.target.value))
+                                        }}
+                                        />
+                                    </div>
+                                </div>
                                 <div className="select_rate-star">
                                     <select name="anime" id="anime-select" value={rateStarAnime}
                                             onChange={(e) => {

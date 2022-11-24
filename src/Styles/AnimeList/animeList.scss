@@ -161,6 +161,27 @@
   gap: 2rem;
 }
 
+.select_year__inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.min, .max {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.select_year__inputs__text {
+  color: mediumpurple;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
 .reverse__btn {
   cursor: pointer;
   padding: 0.5rem 2rem;
