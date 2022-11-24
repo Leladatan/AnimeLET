@@ -7,5 +7,4 @@ export interface IAnimeItem {
     age: string,
     year: number,
     img: string,
-    link: string,
 }

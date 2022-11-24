@@ -11,7 +11,6 @@ export const animeData: IAnimeItem[] = [
         age: "18+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6319cd947a99a365246749.jpg",
-        link: "/",
     },
     //2
     {
@@ -23,7 +22,6 @@ export const animeData: IAnimeItem[] = [
         age: "0+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/631cbcdda8fae239603812.jpg",
-        link: "/",
     },
     //3
     {
@@ -35,7 +33,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6341d35f1734f259446412.jpg",
-        link: "/",
     },
     //4
     {
@@ -47,7 +44,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6319d10357dec953113094.jpg",
-        link: "/",
     },
     //5
     {
@@ -59,7 +55,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62cf3120e5fe2978650321.jpg",
-        link: "/",
     },
     //6
     {
@@ -71,7 +66,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2013,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5c3795f58c297270015274.jpg",
-        link: "/",
     },
     //7
     {
@@ -83,7 +77,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2010,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/60b490dda5b48793747490.jpg",
-        link: "/",
     },
     //8
     {
@@ -95,7 +88,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2015,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5d63d4ff1dcd9520316178.jpg",
-        link: "/",
     },
     //9
     {
@@ -107,7 +99,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/630914b08c91d247771532.jpg",
-        link: "/",
     },
     //10
     {
@@ -119,7 +110,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2019,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5d9f5a769cc2f209060036.jpg",
-        link: "/",
     },
     //11
     {
@@ -131,7 +121,6 @@ export const animeData: IAnimeItem[] = [
         age: "18+",
         year: 2011,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a85b5326b196703926212.jpg",
-        link: "/",
     },
     //12
     {
@@ -143,7 +132,6 @@ export const animeData: IAnimeItem[] = [
         age: "18+",
         year: 2021,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/60d857bfdaf53483045798.jpg",
-        link: "/",
     },
     //13
     {
@@ -155,7 +143,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2017,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5ab171c6da42c160184249.jpg",
-        link: "/",
     },
     //14
     {
@@ -167,7 +154,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2018,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5abe33ee6e805560704181.jpg",
-        link: "/",
     },
     //15
     {
@@ -179,7 +165,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2014,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/60be739524217975343574.jpg",
-        link: "/",
     },
     //16
     {
@@ -191,7 +176,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2021,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/606459fa9af72265580666.jpg",
-        link: "/",
     },
     //17
     {
@@ -203,7 +187,6 @@ export const animeData: IAnimeItem[] = [
         age: "0+",
         year: 2020,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5f00372c7a6ed536216626.jpg",
-        link: "/",
     },
     //18
     {
@@ -215,7 +198,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2020,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5f1b1003f1428828153170.jpg",
-        link: "/",
     },
     //19
     {
@@ -227,7 +209,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2012,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5f718b8bdaab3134220072.jpg",
-        link: "/",
     },
     //20
     {
@@ -239,7 +220,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2017,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5bbd16801a7cd762823407.jpg",
-        link: "/",
     },
     //21
     {
@@ -251,7 +231,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2021,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/612fa8ab10633055514747.jpg",
-        link: "/",
     },
     //22
     {
@@ -263,7 +242,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2018,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5bd44a78177e0386016094.jpg",
-        link: "/",
     },
     //23
     {
@@ -275,7 +253,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2014,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5c34be28c0d07340751757.jpg",
-        link: "/",
     },
     //24
     {
@@ -287,7 +264,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2014,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a8b144777b57658716956.jpg",
-        link: "/",
     },
     //25
     {
@@ -299,7 +275,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6321e088d91c5890130687.jpg",
-        link: "/",
     },
     //26
     {
@@ -311,7 +286,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2016,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a70aa46d6010.jpg",
-        link: "/",
     },
     //27
     {
@@ -323,7 +297,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2018,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5bb095f7d0221321870491.jpg",
-        link: "/",
     },
     //28
     {
@@ -335,7 +308,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 1995,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/61805af1bbcd9937322084.jpg",
-        link: "/",
     },
     //29
     {
@@ -347,7 +319,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/625048d38ff7f947610926.jpg",
-        link: "/",
     },
     //30
     {
@@ -359,7 +330,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2019,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/61d04c53ae058148245219.jpg",
-        link: "/",
     },
     //31
     {
@@ -371,7 +341,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2019,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5d03d83d33ba2222302542.jpg",
-        link: "/",
     },
     //32
     {
@@ -383,7 +352,6 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6249621ff25ff300710365.jpg",
-        link: "/",
     },
     //33
     {
@@ -395,7 +363,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2002,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a3fbef2671f5.jpg",
-        link: "/",
     },
     //34
     {
@@ -407,7 +374,6 @@ export const animeData: IAnimeItem[] = [
         age: "18+",
         year: 2006,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a736eff7b3ef.jpg",
-        link: "/",
     },
     //35
     {
@@ -419,7 +385,6 @@ export const animeData: IAnimeItem[] = [
         age: "18+",
         year: 2022,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6325a97c596a5704160745.jpg",
-        link: "/",
     },
     //36
     {
@@ -431,7 +396,6 @@ export const animeData: IAnimeItem[] = [
         age: "18+",
         year: 2021,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/61c0e7650a79e589259475.jpg",
-        link: "/",
     },
     //37
     {
@@ -443,7 +407,6 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2014,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5c380a9edf805553398339.jpg",
-        link: "/",
     },
     //38
     {
@@ -455,7 +418,6 @@ export const animeData: IAnimeItem[] = [
         age: "18+",
         year: 2008,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a743e804fcb8.jpg",
-        link: "/",
     },
     //39
     {
@@ -467,7 +429,6 @@ export const animeData: IAnimeItem[] = [
         age: "18+",
         year: 2021,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5ff8de37e4d15498783235.jpg",
-        link: "/",
     },
     //40
     {
@@ -479,18 +440,17 @@ export const animeData: IAnimeItem[] = [
         age: "16+",
         year: 2019,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5c40382862d8a143640923.jpg",
-        link: "/",
     },
     //41
     // {
     //     id: 41,
-    //     title: "title",
-    //     description: "text",
+    //     title: "",
+    //     description: "",
     //     genre: ["",],
-    //     rate: 8.0,
-    //     age: "16+",
-    //     year: 2019,
-    //     img: "link",
+    //     rate: 0,
+    //     age: "",
+    //     year: 1,
+    //     img: "",
     //     link: "/",
     // },
 ];

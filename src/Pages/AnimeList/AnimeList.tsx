@@ -10,23 +10,33 @@ export default function AnimeList() {
     const [nameAnime, setNameAnime] = useState<string>('')
     const [animeAgeRateSelect, setAnimeAgeRateSelect] = useState('')
     const [genreAnime, setGenreAnime] = useState('')
+    const [rateStarAnime, setRateStarAnime] = useState('')
 
     const filteredNameAnime = animeData.filter(anime => {
-        if (anime.age.includes(animeAgeRateSelect) && genreAnime === "choose"
-            || anime.genre.includes(genreAnime) && animeAgeRateSelect === "choose") {
-            return animeData;
+        if (anime.age.includes(animeAgeRateSelect) && genreAnime === "" && rateStarAnime === ""
+            || anime.genre.includes(genreAnime) && animeAgeRateSelect === "" && rateStarAnime === ""
+            || rateStarAnime === "") {
+            animeData.sort((a, b) => a.id - b.id)
+        }
+        if (rateStarAnime === "up") {
+            animeData.sort((a, b) => b.rate - a.rate)
+        }
+        if (rateStarAnime === "down") {
+            animeData.sort((a, b) => a.rate - b.rate)
         }
         return anime.title.toLowerCase().includes(nameAnime.toLowerCase())
             && anime.age.includes(animeAgeRateSelect)
             && anime.genre.includes(genreAnime)
     })
 
+    console.log(filteredNameAnime)
+
     const reset = () => {
         setNameAnime('')
         setAnimeAgeRateSelect('')
         setGenreAnime('')
+        setRateStarAnime('')
     }
-
 
     return (
         <>
@@ -95,10 +105,17 @@ export default function AnimeList() {
                                 </div>
                             </div>
                             <div className="btns">
-                                <div className="reverseList">
-                                    <button className="reverse__btn">
-                                        Reverse
-                                    </button>
+                                <div className="select_rate-star">
+                                    <select name="anime" id="anime-select" value={rateStarAnime}
+                                            onChange={(e) => {
+                                                setRateStarAnime(e.target.value)
+                                            }}>
+
+                                        <option value="">Rate-star</option>
+                                        <option value="up">Ascending order</option>
+                                        <option value="down">Descending order</option>
+
+                                    </select>
                                 </div>
                                 <div className="reset">
                                     <button className="reset__btn" onClick={reset}>
@@ -108,7 +125,7 @@ export default function AnimeList() {
                             </div>
                         </div>
                         <div className="main__content_cards">
-                            {filteredNameAnime.map(item => (
+                            {filteredNameAnime.map((item) => (
                                 <CardsAnime item={item} key={item.id}/>
                             ))}
                         </div>
