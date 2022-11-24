@@ -51,6 +51,14 @@ export default function AnimePage() {
                                 </div>
                             </div>
                         </div>
+                        <div className="anime-page__video">
+                            <h2 className="anime-page__video_title">Opening</h2>
+                            <iframe className="anime-page__video_video" src={itemAnime.linkVideo}
+                                    title="YouTube video player" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen>
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </main>

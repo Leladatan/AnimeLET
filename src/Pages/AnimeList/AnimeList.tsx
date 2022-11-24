@@ -86,9 +86,7 @@ export default function AnimeList() {
                                     <select name="anime" id="anime-select" value={animeAgeRateSelect}
                                             onChange={(e) => {
                                                 setAnimeAgeRateSelect(e.target.value)
-                                            }}
-
-                                    >
+                                            }}>
                                         <option value="">Age-rate</option>
                                         <option value="0+">0+</option>
                                         <option value="14+">14+</option>
@@ -110,11 +108,9 @@ export default function AnimeList() {
                                             onChange={(e) => {
                                                 setRateStarAnime(e.target.value)
                                             }}>
-
                                         <option value="">Rate-star</option>
                                         <option value="up">Ascending order</option>
                                         <option value="down">Descending order</option>
-
                                     </select>
                                 </div>
                                 <div className="reset">

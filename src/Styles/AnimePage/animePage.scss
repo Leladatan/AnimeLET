@@ -61,6 +61,40 @@
   color: #e6e6e6;
 }
 
+//video
+.anime-page__video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.anime-page__video_title {
+  color: mediumpurple;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid mediumpurple;
+}
+
+.anime-page__video_video {
+  max-width: 100%;
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+  .anime-page__video_video {
+    max-width: 90%;
+    height: 550px;
+  }
+}
+
 @media screen and (max-width: 769px) {
   .anime-page {
     flex-direction: column;
@@ -69,5 +103,17 @@
   .animePage-img {
     max-width: 300px;
     max-height: 400px;
+  }
+
+  .anime-page__video_video {
+    max-width: 80%;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .anime-page__video_video {
+    max-width: 95%;
+    height: 400px;
   }
 }
