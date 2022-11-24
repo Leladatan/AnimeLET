@@ -12,24 +12,22 @@ export default function AnimeList() {
     const [genreAnime, setGenreAnime] = useState('')
     const [rateStarAnime, setRateStarAnime] = useState('')
 
-    const filteredNameAnime = animeData.filter(anime => {
+    let filteredNameAnime = animeData.filter(anime => {
         if (anime.age.includes(animeAgeRateSelect) && genreAnime === "" && rateStarAnime === ""
             || anime.genre.includes(genreAnime) && animeAgeRateSelect === "" && rateStarAnime === ""
             || rateStarAnime === "") {
             animeData.sort((a, b) => a.id - b.id)
-        }
-        if (rateStarAnime === "up") {
-            animeData.sort((a, b) => b.rate - a.rate)
-        }
-        if (rateStarAnime === "down") {
-            animeData.sort((a, b) => a.rate - b.rate)
         }
         return anime.title.toLowerCase().includes(nameAnime.toLowerCase())
             && anime.age.includes(animeAgeRateSelect)
             && anime.genre.includes(genreAnime)
     })
 
-    console.log(filteredNameAnime)
+    if (rateStarAnime === "up") {
+        filteredNameAnime = filteredNameAnime.sort((a, b) => b.rate - a.rate)
+    } else if (rateStarAnime === "down") {
+        filteredNameAnime = filteredNameAnime.sort((a, b) => a.rate - b.rate)
+    }
 
     const reset = () => {
         setNameAnime('')
