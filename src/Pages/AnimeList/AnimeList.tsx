@@ -12,8 +12,7 @@ export default function AnimeList() {
     const [genreAnime, setGenreAnime] = useState('')
 
     const filteredNameAnime = animeData.filter(anime => {
-        if (animeAgeRateSelect === "choose" && genreAnime === "choose"
-            || anime.age.includes(animeAgeRateSelect) && genreAnime === "choose"
+        if (anime.age.includes(animeAgeRateSelect) && genreAnime === "choose"
             || anime.genre.includes(genreAnime) && animeAgeRateSelect === "choose") {
             return animeData;
         }
@@ -44,7 +43,7 @@ export default function AnimeList() {
                                     <select name="anime" id="anime-select" value={genreAnime} onChange={(e) => {
                                         setGenreAnime(e.target.value)
                                     }}>
-                                        <option value="choose">Genre</option>
+                                        <option value="">Genre</option>
                                         <option value="Demons">Demons</option>
                                         <option value="Adventures">Adventures</option>
                                         <option value="Furs">Furs</option>
@@ -80,7 +79,7 @@ export default function AnimeList() {
                                             }}
 
                                     >
-                                        <option value="choose">Age-rate</option>
+                                        <option value="">Age-rate</option>
                                         <option value="0+">0+</option>
                                         <option value="14+">14+</option>
                                         <option value="16+">16+</option>
