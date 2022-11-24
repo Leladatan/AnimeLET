@@ -147,6 +147,12 @@ html, body {
   }
 }
 
+@media screen and (max-width: 475px) {
+  .btns {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .header__list {
     gap: 0;
