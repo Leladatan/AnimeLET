@@ -27,6 +27,8 @@ export default function AnimeList() {
             && (anime.year >= minYear && anime.year <= maxYear)
     })
 
+    {minYear >= maxYear ? setMinYear(prev => prev - 1) : null}
+
     if (rateStarAnime === "up") {
         filteredNameAnime = filteredNameAnime.sort((a, b) => b.rate - a.rate)
     } else if (rateStarAnime === "down") {
