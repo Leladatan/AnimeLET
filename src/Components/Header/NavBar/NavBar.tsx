@@ -9,7 +9,7 @@ export default function NavBar() {
         return Math.floor(Math.random() * arr.length)
     }
 
-    const randIdAnime = rand(animeData) + 1
+    const randIdAnime = () => rand(animeData) + 1
 
     return (
         <>
@@ -30,7 +30,7 @@ export default function NavBar() {
                         </NavLink>
                     </li>
                     <li className="header__list_item">
-                        <NavLink to={`/animelist/${randIdAnime}`} className={({isActive}) =>
+                        <NavLink to={`/animelist/${randIdAnime()}`} className={({isActive}) =>
                             isActive ? "header__list_link_active" : "header__list_link"
                         }>
                             RANDOM
