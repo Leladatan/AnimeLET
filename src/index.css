@@ -680,6 +680,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 .anime-page__description-text {
   color: #e6e6e6;
   margin-top: 1rem;
+  max-width: 700px;
 }
 
 .anime-page__video {
