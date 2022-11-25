@@ -6,12 +6,10 @@ import {animeData} from "../../Store/storeAnime";
 import {useState} from "react";
 
 export default function AnimeList() {
-
     const [nameAnime, setNameAnime] = useState<string>('')
     const [animeAgeRateSelect, setAnimeAgeRateSelect] = useState<string>('')
     const [genreAnime, setGenreAnime] = useState<string>('')
     const [rateStarAnime, setRateStarAnime] = useState<string>('')
-
     const [minYear, setMinYear] = useState<number>(1990)
     const [maxYear, setMaxYear] = useState<number>(2022)
 
