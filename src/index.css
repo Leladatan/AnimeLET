@@ -780,7 +780,10 @@ html, body {
 }
 
 .main {
-  background-color: #404040;
+  background-image: url("../public/background.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100%;
   padding: 2rem 0;
   flex: 1;
 }
