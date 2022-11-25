@@ -65,6 +65,16 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid #333333;
 }
 
+//spinner
+.loader-spinner {
+  margin: auto auto;
+  width: 250px;
+  height: 250px;
+}
+body {
+  background-color: #404040;
+}
+
 //media
 
 @media screen and (max-width: 1300px) {
