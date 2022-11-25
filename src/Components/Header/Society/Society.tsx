@@ -1,6 +1,6 @@
 import "../../../index.scss"
-import vk from "../../../../Image/icons/vk.svg"
-import tel from "../../../../Image/icons/telegram.svg"
+import vk from "../../../Image/icons/vk.svg"
+import tel from "../../../Image/icons/telegram.svg"
 
 export default function Society() {
     return (
