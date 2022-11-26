@@ -8,5 +8,4 @@ export interface IAnimeItem {
     year: number,
     img: string,
     linkVideo: string,
-    series?: string[]
 }
