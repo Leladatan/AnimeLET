@@ -73,6 +73,7 @@
   gap: 2rem;
 
   &_cards {
+    min-height: 100px;
     padding-top: 1.5rem;
     display: grid;
     gap: 1rem;
@@ -261,6 +262,19 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   &:hover {
     background-color: #333;
   }
+}
+
+//error for search and filter
+.text__error-found {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: mediumpurple;
+  text-align: center;
+  margin: 0 0 1rem;
+  padding: 0 1rem;
 }
 
 @media screen and (max-width: 1385px) {

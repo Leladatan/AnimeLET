@@ -147,9 +147,13 @@ export default function AnimeList() {
                             </div>
                         </div>
                         <div className="main__content_cards">
-                            {filteredNameAnime.map((item) => (
-                                <CardsAnime item={item} key={item.id}/>
-                            ))}
+                            {filteredNameAnime.length === 0 ?
+                                <span className="text__error-found">
+                                    Sorry, but nothing was found for your query...
+                                </span> :
+                                filteredNameAnime.map((item) => (
+                                    <CardsAnime item={item} key={item.id}/>
+                                ))}
                         </div>
                     </div>
                 </div>
