@@ -15,8 +15,7 @@ export default function AnimeList() {
 
     let filteredNameAnime = animeData.filter(anime => {
         if (anime.age.includes(animeAgeRateSelect) && genreAnime === "" && rateStarAnime === ""
-            || anime.genre.includes(genreAnime) && animeAgeRateSelect === "" && rateStarAnime === ""
-            || rateStarAnime === "") {
+            || anime.genre.includes(genreAnime) && animeAgeRateSelect === "" && rateStarAnime === "") {
             animeData.sort((a, b) => a.id - b.id)
         }
         return anime.title.toLowerCase().includes(nameAnime.toLowerCase())
