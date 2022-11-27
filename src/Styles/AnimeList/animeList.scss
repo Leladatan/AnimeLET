@@ -11,6 +11,23 @@
   text-align: center;
 }
 
+//counter
+.counter-anime {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: mediumpurple;
+}
+
+.counter-anime span {
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid mediumpurple;
+  margin-left: 0.5rem;
+  padding: 0.4rem 0.4rem 0.2rem;
+}
+
 //selectGenre
 .select_genre > select {
 

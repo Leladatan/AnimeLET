@@ -28,6 +28,8 @@ export default function AnimeList() {
         minYear > maxYear ? setMinYear(prev => prev - 1) : null
     }
 
+    const countAnime = filteredNameAnime.length
+
     if (rateStarAnime === "up") {
         filteredNameAnime = filteredNameAnime.sort((a, b) => b.rate - a.rate)
     } else if (rateStarAnime === "down") {
@@ -146,6 +148,7 @@ export default function AnimeList() {
                                 </div>
                             </div>
                         </div>
+                        <p className="counter-anime">Anime: <span>{countAnime}</span></p>
                         <div className="main__content_cards">
                             {filteredNameAnime.length === 0 ?
                                 <span className="text__error-found">
