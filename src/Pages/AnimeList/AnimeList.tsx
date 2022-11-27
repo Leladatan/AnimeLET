@@ -148,7 +148,7 @@ export default function AnimeList() {
                                 </div>
                             </div>
                         </div>
-                        <p className="counter-anime">Anime: <span>{countAnime}</span></p>
+                        {/*<p className="counter-anime">Anime: <span>{countAnime}</span></p>*/}
                         <div className="main__content_cards">
                             {filteredNameAnime.length === 0 ?
                                 <span className="text__error-found">
