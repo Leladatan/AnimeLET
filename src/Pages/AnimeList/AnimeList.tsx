@@ -24,11 +24,11 @@ export default function AnimeList() {
             && (anime.year >= minYear && anime.year <= maxYear)
     })
 
-    {
+    setTimeout(() => {
         minYear > maxYear ? setMinYear(prev => prev - 1) : null
-    }
+    }, 1)
 
-    const countAnime = filteredNameAnime.length
+    // const countAnime = filteredNameAnime.length
 
     if (rateStarAnime === "up") {
         filteredNameAnime = filteredNameAnime.sort((a, b) => b.rate - a.rate)
