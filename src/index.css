@@ -248,6 +248,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
+  transition: all 0.2s ease-in-out;
 }
 
 .select_year__inputs__text {
@@ -541,6 +542,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   align-items: center;
   justify-content: center;
   gap: 0.3rem;
+  transition: all 0.2s ease-in-out;
 }
 
 .select_year__inputs__text {
