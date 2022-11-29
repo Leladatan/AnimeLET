@@ -817,6 +817,10 @@ html, body {
   flex: 1;
 }
 
+::selection {
+  background: purple;
+}
+
 body::-webkit-scrollbar {
   width: 0.45rem;
 }

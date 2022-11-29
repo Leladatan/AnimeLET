@@ -53,7 +53,10 @@ html, body {
   padding: 2rem 0;
   flex: 1;
 }
-
+//
+::selection {
+  background: purple;
+}
 //scrollbar
 body::-webkit-scrollbar {
   width: 0.45rem;
