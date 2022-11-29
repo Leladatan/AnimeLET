@@ -481,7 +481,132 @@ export const animeData: IAnimeItem[] = [
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5c40382862d8a143640923.jpg",
         linkVideo: "https://www.youtube.com/embed/N4UH-kkVJpA",
     },
-    //41
+    // 41
+    {
+        id: 41,
+        title: "Domestic na Kanojo",
+        description: "Natsuo is a simple high school student who has long understood what kind of ladies attract him. The young man feels a genuine attraction to a charming person who is a little older than him. Hina is a teacher who does not notice the feelings of a young boyfriend. After a little thought , the boy agrees to spend the night with an enthusiastic Ru yi . After the completion of the process, the schoolgirl suddenly plunges into strong regrets, because she absolutely did not feel pleasant emotions. And the guy is now worried about an unwanted short-term affair. So both characters begin to suffer seriously.",
+        genre: ["", "Drama", "Romance", "Senen", "School"],
+        rate: 8.3,
+        age: "16+",
+        year: 2019,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5c3fa2f54e30c445057137.jpg",
+        linkVideo: "https://www.youtube.com/embed/5WoZyCur8BM",
+    },
+    // 42
+    {
+        id: 42,
+        title: "Love Me, Love Me Not",
+        description: "Everyone talks about love in their own way. For Yuna, romance is above all, while Akari is too down-to-earth and practical in her views. But girls are girls. What about the guys? Those, it turns out, have not gone far from their friends. Kazuomi has a wind in her head, and the guy doesn't seem to know anything about love. But Rio does not waste time in vain and does not miss a single girl who confesses to him while she seems cute. Each of them talks about love in their own way. But the day will come when some of them will have to make a choice. Who will remain true to himself, and who will change his idea under the power of love? After all, she, as you know, changes people.",
+        genre: ["", "Drama", "Romance", "Shojo", "School"],
+        rate: 8.7,
+        age: "14+",
+        year: 2020,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/613f1fa8a5fee879574354.jpg",
+        linkVideo: "https://www.youtube.com/embed/SjJc7TeKuus",
+    },
+    // 43
+    {
+        id: 43,
+        title: "Kuroko's Basketball",
+        description: "Tetsuya Kuroko finds himself in the Seirin Educational institution. He immediately signs up for a local team. Despite its relative youth, the institution has already managed to prove itself at the national tournament. Undoubtedly, the club was delighted that talented newcomers appeared in the ranks of athletes. Among the recruits was Taiga Kagami, a boy who studied in America. The not particularly noticeable young man was on the list of star players who regularly appeared on the grounds. But the information came only from his words. Believe him or not? Only time will show the real gift of a boastful guy, and, of course, the newfound comrades will appreciate it.",
+        genre: ["", "Comedy", "Senen", "Sports", "School"],
+        rate: 9.0,
+        age: "16+",
+        year: 2012,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5aca08af08caf111987219.jpg",
+        linkVideo: "https://www.youtube.com/embed/5RVEM8-UKlg",
+    },
+    // 44
+    {
+        id: 44,
+        title: "Kuroko's Basketball 2",
+        description: "The Teiko High School basketball team has been a serious opponent for many teams for a long time. She was winning without giving the slightest chance of winning.\n" +
+            "The \"Generation of Miracles\" are the five best geniuses of this team, who demonstrated an incredible level of play. With their help, Teiko was able to achieve the seemingly impossible. For three years in a row, she became the winner at the international basketball championship, not to mention various kinds of competitions.\n" +
+            "But everything comes to an end sooner or later. And even such an incredibly strong and talented basketball team.\n" +
+            "After graduation, everyone went to different high schools. The \"Generation of Miracles\" was no exception. Now each of them will have to rely on their own strength, not forgetting that former teammates have become a serious obstacle on the way to the international championship.\n" +
+            "Tetsuya Kuroko, the \"ghost player\" of the famous Teiko, has already felt the increased power of the \"Generation of Miracles\". That's just that he and his team do not want to give up the goal so easily. Therefore, even tougher training became the first step for them to fight geniuses on equal terms.\n" +
+            "This time everything will be decided at the \"Winter Cup\" competition. After all, a team worthy of being called the best will be determined there. And here our heroes should not forget about one more obstacle on their way: about the \"uncrowned kings\" — players who remained in the shadow of the \"Generation of Miracles\", but not much inferior to them. These guys can cause a lot of trouble.\n" +
+            "Will our heroes be able to break through and achieve their goal by scattering rivals on the court? Anyone would say it's impossible. However, the elder Seirin has just started to gain momentum!",
+        genre: ["", "Comedy", "Senen", "Sports", "School"],
+        rate: 9.2,
+        age: "16+",
+        year: 2013,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5aca67b896fef801815500.jpg",
+        linkVideo: "https://www.youtube.com/embed/ZYZSwzmgCTU",
+    },
+    // 45
+    {
+        id: 45,
+        title: "Tower of God",
+        description: "A mysterious force known as Shinsu has appeared in the world. And there is also a Tower — house for people who enjoy the benefits of Shinsu and call themselves \"the chosen ones\". They say that those who reach the top of the Tower will fulfill all their desires. To get to the top, the \"Chosen Ones\" selected by the keeper of the Tower are required to pass the tests… And together with them, Baam climbs the Tower — the main character and \"Illegal\", who opened the doors to himself. He does this with a single purpose - to find Rachel, who was everything to him.",
+        genre: ["", "Detective", "Drama", "Adventure", "Fantasy", "Action"],
+        rate: 8.9,
+        age: "16+",
+        year: 2020,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5e84cd60b6282406535190.jpg",
+        linkVideo: "https://www.youtube.com/embed/JzK0k6MfvCc",
+    },
+    // 46
+    {
+        id: 46,
+        title: "Gleipnir",
+        description: "\"Why am I taking this form?\" Shuichi Kagaya is a young man with a dangerous ability for the whole world: he can transform into a strange animal costume. And one day his power attracts the attention of a mysterious girl named Claire ... Meeting her finally ruins Shuichi's peaceful life: monsters are hunting him — people with the same ability as the guy. Becoming one, Shuichi and Claire decide to fight for their fate. They are fighting for a \"coin\" that can cause a great cataclysm!",
+        genre: ["", "Detective", "Supernatural", "Seinen", "Action", "Etty"],
+        rate: 8.4,
+        age: "18+",
+        year: 2020,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5e8a99bb8cc6b055355644.jpg",
+        linkVideo: "https://www.youtube.com/embed/bzTf3h08EYc",
+    },
+    // 47
+    {
+        id: 47,
+        title: "Remake our Life!",
+        description: "Keya Hasiba is a 28—year-old game developer. His company went bankrupt, he lost his job and returns to his hometown. He envies peers who have successfully settled in the industry, and falls asleep with sad thoughts. Waking up, the guy realizes that he was transported back ten years to the time when he entered the university. Will he be able to make the right decision?",
+        genre: ["", "Drama", "Comedy", "Slice of life", "Romance"],
+        rate: 8.8,
+        age: "16+",
+        year: 2021,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/60d375b3adad0038177523.jpg",
+        linkVideo: "https://www.youtube.com/embed/8nwgtqF9huk",
+    },
+    // 48
+    {
+        id: 48,
+        title: "Guilty Crown",
+        description: "A seventeen–year-old boy, Xiu Oma, also joined the ranks of the \"defenders\". Together, the resistance units want to get a superweapon capable of stopping GHQ employees. Many difficulties fell on the shoulders of Xiu Om. He literally has to be in several places at the same time. Not only is the young man defending the state, he is trying to be good for Inori, the singer, because of his infatuation. And the boy has to attend school, because no one canceled lessons. Will the character last a long time with such tension, or will he decide to give up?",
+        genre: ["", "Drama", "Furs", "Romance", "Superpower", "Fantasy", "Action"],
+        rate: 8.4,
+        age: "18+",
+        year: 2011,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5ca5bddeaa291981771335.jpg",
+        linkVideo: "https://www.youtube.com/embed/DjUtmbZt8zc",
+    },
+    // 49
+    {
+        id: 49,
+        title: "Another",
+        description: "More than 20 years ago, a kind and sociable girl named Misaki studied in this class. She died under unknown circumstances, and the details of those events are still unknown to anyone. For some reason, everyone around her denied her death, and since then the last seat of the left row in the 9th \"B\" class has remained unoccupied. However, the metropolitan guest did not know this story and first of all greeted a quiet girl with an eye patch. This caused shock to others, after which they became suspicious of the stranger. Koichi, trying to understand the reasons for what is happening, learned from his new friend that the whole point is that her name is Mei Misaki!",
+        genre: ["", "Detective", "Supernatural", "Thriller", "Horrors", "School"],
+        rate: 8.5,
+        age: "18+",
+        year: 2012,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b1898089fd3370117992.jpg",
+        linkVideo: "https://www.youtube.com/embed/_U_57mzfjB4",
+    },
+    // 50
+    {
+        id: 50,
+        title: "Seraph of the End: Vampire Reign",
+        description: "They will be their \"food\", which will perfectly be able to support their life. The main character is a young guy named Yuichiro Hyakuya. He spent four whole years underground, and now he began to understand that this should not continue. Having gathered a group of brave people, he decides to get out of captivity and try to escape. To their great disappointment, they did not manage to get far and everyone was killed. Only Yuichiro survived, and he is going to do everything possible in an attempt to prevent the impending tragedy. Will he be able to stop the nightmare, or will he not be able to cope with the vampires alone?",
+        genre: ["", "Vampires", "Drama", "Supernatural", "Senen", "Action"],
+        rate: 8.7,
+        age: "18+",
+        year: 2015,
+        img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a8183f0e4d85285344092.jpg",
+        linkVideo: "https://www.youtube.com/embed/NtzDAmRhD9s",
+    },
     // {
     //     id: 41,
     //     title: "",
@@ -491,6 +616,6 @@ export const animeData: IAnimeItem[] = [
     //     age: "",
     //     year: 1,
     //     img: "",
-    //     link: "/",
+    //     linkVideo: "/",
     // },
 ];

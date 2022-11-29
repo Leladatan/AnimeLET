@@ -87,6 +87,8 @@ export default function AnimeList() {
                                         <option value="Military">Military</option>
                                         <option value="Historical">Historical</option>
                                         <option value="Martial arts">Martial arts</option>
+                                        <option value="Shojo">Shojo</option>
+                                        <option value="Vampires">Vampires</option>
                                     </select>
                                 </div>
                                 <div className="select_age">
