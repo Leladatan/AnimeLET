@@ -684,7 +684,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 .anime-page__year, .anime-page__genres, .anime-page__age {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .animePage-title {

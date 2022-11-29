@@ -287,7 +287,7 @@ export const animeData: IAnimeItem[] = [
         age: "14+",
         year: 2014,
         img: "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/5a8b144777b57658716956.jpg",
-        linkVideo: "https://www.youtube.com/embed/IQnnwUXd_0U",
+        linkVideo: "https://www.youtube.com/embed/qx9ieoCsd1w",
     },
     //25
     {
