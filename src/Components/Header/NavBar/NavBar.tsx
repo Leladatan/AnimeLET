@@ -8,16 +8,12 @@ const NavBar: FC = () => {
 
     const [randIdAnime, setRandIdAnime] = useState<number>(0);
 
-    // setTimeout(() => {
-    //     const rand = (arr: IAnimeItem[]) => {
-    //         return Math.floor(Math.random() * arr.length);
-    //     }
-    //     setRandIdAnime(rand(animeData) + 1);
-    // }, 500)
-
-    const rand = (arr: IAnimeItem[]) => {
-        return Math.floor(Math.random() * arr.length);
-    }
+    setTimeout(() => {
+        const rand = (arr: IAnimeItem[]) => {
+            return Math.floor(Math.random() * arr.length);
+        }
+        setRandIdAnime(rand(animeData) + 1);
+    }, 500)
 
     // useEffect(() => {
     //     setRandIdAnime(rand(animeData) + 1)
