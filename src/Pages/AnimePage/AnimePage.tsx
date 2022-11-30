@@ -6,7 +6,7 @@ import {IAnimeItem} from "../../Interfaces/IAnimeItem";
 const AnimePage: FC = () => {
     const [item, setItem] = useState<IAnimeItem | null>(null);
     const [genres, setGenres] = useState<string>("");
-    const [randIdAnime, setRandIdAnime] = useState<number>(0);
+    // const [randIdAnime, setRandIdAnime] = useState<number>(0);
 
     const url = useLocation();
 
@@ -15,13 +15,13 @@ const AnimePage: FC = () => {
         const current = animeData[urlId - 1];
         setItem(current);
         setGenres(current.genre.slice(1).join(', '));
-        setTimeout(() => {
-            const rand = (arr: IAnimeItem[]) => {
-                return Math.floor(Math.random() * arr.length);
-            }
-            setRandIdAnime(rand(animeData) + 1);
-        }, 500)
-    }, [randIdAnime]);
+        // setTimeout(() => {
+        //     const rand = (arr: IAnimeItem[]) => {
+        //         return Math.floor(Math.random() * arr.length);
+        //     }
+        //     setRandIdAnime(rand(animeData) + 1);
+        // }, 500)
+    }, []);
 
 
     return (
