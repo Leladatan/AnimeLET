@@ -1,9 +1,10 @@
-import Logo from  "../Header/Logo/Logo"
-import NavBar from  "../Header/NavBar/NavBar"
+import Logo from "../Header/Logo/Logo"
+import NavBar from "../Header/NavBar/NavBar"
 import Society from "../Header/Society/Society"
 import "../../index.scss"
+import {FC} from "react";
 
-export default function Header() {
+const Header: FC = () => {
     return (
         <header className="header">
             <div className="container">
@@ -16,3 +17,5 @@ export default function Header() {
         </header>
     )
 }
+
+export default Header;

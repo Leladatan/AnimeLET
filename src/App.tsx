@@ -3,20 +3,20 @@ import Home from "./Pages/Home/Home";
 import AnimeList from "./Pages/AnimeList/AnimeList";
 import NotFound from "./Pages/NotFound/NotFound";
 import AnimePage from "./Pages/AnimePage/AnimePage";
-import {useEffect, useState} from "react";
+import {FC, useEffect, useState} from "react";
 import {RingLoader} from "react-spinners";
-import './index.scss'
+import Page from "./Components/Page/Page";
 
-export default function App() {
+const App: FC = () => {
 
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         setLoading(true)
         setTimeout(() => {
             setLoading(false)
         }, 2000)
-    }, [])
+    }, []);
 
     return (
         <>
@@ -26,18 +26,42 @@ export default function App() {
                     color="mediumpurple"
                     loading={loading}
                     speedMultiplier={1}
-                    size={150}
-                /> :
-
+                    size={150}/> :
                 <Routes>
-
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/animelist" element={<AnimeList/>}/>
-                    <Route path="/animelist/:id" element={<AnimePage/>}/>
-                    <Route path='*' element={<NotFound/>}/>
-
-                </Routes>
-            }
+                    <Route
+                        path="/"
+                        element={
+                            <Page>
+                                <Home/>
+                            </Page>
+                        }
+                    />
+                    <Route
+                        path="/animelist"
+                        element={
+                            <Page>
+                                <AnimeList/>
+                            </Page>
+                        }
+                    />
+                    <Route
+                        path="/animelist/:id"
+                        element={
+                            <Page>
+                                <AnimePage/>
+                            </Page>
+                        }
+                    />
+                    <Route
+                        path="*"
+                        element={
+                            <Page>
+                                <NotFound/>
+                            </Page>
+                        }
+                    />
+                </Routes>}
         </>
-    )
-}
+    );
+};
+export default App;

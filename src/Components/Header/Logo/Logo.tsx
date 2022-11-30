@@ -1,7 +1,8 @@
 import {Link} from "react-router-dom";
 import "../../../index.scss"
+import {FC} from "react";
 
-export default function Logo() {
+const Logo: FC = () => {
     return (
         <>
             <div className="header__logo">
@@ -14,3 +15,5 @@ export default function Logo() {
         </>
     );
 }
+
+export default Logo;

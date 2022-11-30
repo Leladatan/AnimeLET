@@ -1,8 +1,9 @@
 import "../../../index.scss"
 import vk from "../../../Image/icons/vk.svg"
 import tel from "../../../Image/icons/telegram.svg"
+import {FC} from "react";
 
-export default function Society() {
+const Society: FC = () => {
     return (
         <>
             <div className="society">
@@ -12,3 +13,5 @@ export default function Society() {
         </>
     )
 }
+
+export default Society;

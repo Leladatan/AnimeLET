@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
+import {FC} from "react";
 
-export default function Footer() {
+const Footer: FC = () => {
     return (
         <footer className="footer">
             <div className="container">
@@ -38,3 +39,5 @@ export default function Footer() {
         </footer>
     )
 }
+
+export default Footer;

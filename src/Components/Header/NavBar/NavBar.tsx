@@ -1,15 +1,23 @@
 import {NavLink} from "react-router-dom";
-import "../../../index.scss"
+import "../../../index.scss";
 import {animeData} from "../../../Store/storeAnime";
 import {IAnimeItem} from "../../../Interfaces/IAnimeItem";
+import {FC, useState} from "react";
 
-export default function NavBar() {
+const NavBar: FC = () => {
 
-    const rand = (arr: IAnimeItem[]) => {
-        return Math.floor(Math.random() * arr.length)
-    }
+    const [randIdAnime, setRandIdAnime] = useState<number>(0);
 
-    const randIdAnime = () => rand(animeData) + 1
+    setTimeout(() => {
+        const rand = (arr: IAnimeItem[]) => {
+            return Math.floor(Math.random() * arr.length);
+        }
+        setRandIdAnime(rand(animeData) + 1);
+    }, 500)
+
+    // useEffect(() => {
+    //     setRandIdAnime(rand(animeData) + 1)
+    // }, [randIdAnime])
 
     return (
         <>
@@ -30,7 +38,7 @@ export default function NavBar() {
                         </NavLink>
                     </li>
                     <li className="header__list_item">
-                        <NavLink to={`/animelist/${randIdAnime()}`} className={({isActive}) =>
+                        <NavLink to={`/animelist/${randIdAnime}`} className={({isActive}) =>
                             isActive ? "header__list_link_active" : "header__list_link"
                         }>
                             RANDOM
@@ -41,3 +49,5 @@ export default function NavBar() {
         </>
     )
 }
+
+export default NavBar;
