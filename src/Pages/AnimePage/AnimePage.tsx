@@ -5,7 +5,7 @@ import {IAnimeItem} from "../../Interfaces/IAnimeItem";
 
 const AnimePage: FC = () => {
     const [item, setItem] = useState<IAnimeItem | null>(null);
-    const [genres, setGenres] = useState<IAnimeItem['genre']>([]);
+    const [genres, setGenres] = useState<string>("");
     const [randIdAnime, setRandIdAnime] = useState<number>(0);
 
     const url = useLocation();
@@ -76,7 +76,6 @@ const AnimePage: FC = () => {
                                     className="anime-page__video_video"
                                     src={item.linkVideo}
                                     title="YouTube video player"
-                                    frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
                                 ></iframe>
@@ -90,4 +89,3 @@ const AnimePage: FC = () => {
 };
 
 export default AnimePage;
-// const genres = itemAnime.genre.slice(1).join(", ")
