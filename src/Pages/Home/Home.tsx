@@ -11,7 +11,7 @@ const HomePage: FC = () => {
 
     const sortedAnimeYear = sortedAnimeRate.sort(function (a, b) {
         return b.year - a.year;
-    }).slice(0, 5)
+    }).slice(0, 5);
 
     return (
         <main className="main">
@@ -21,7 +21,7 @@ const HomePage: FC = () => {
                         <h2>This season's Anime</h2>
                     </div>
                     <div className="main__content_cards">
-                        {sortedAnimeYear.slice(0, 5).map((item) => (
+                        {sortedAnimeYear.map((item) => (
                             <AnimeCard item={item} key={item.id}/>
                         ))}
                     </div>

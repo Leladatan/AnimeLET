@@ -28,6 +28,10 @@ const AnimeListPage: FC = () => {
             );
         });
 
+        if (minYear < 1960) {
+            setMinYear(1960)
+        }
+
         if (rate === 'up') {
             result.sort((a, b) => b.rate - a.rate);
         } else if (rate === 'down') {
