@@ -73,6 +73,9 @@
   gap: 2rem;
   padding-top: 2rem;
   padding-bottom: 4rem;
+  & > iframe {
+    border: 0;
+  }
 }
 
 .anime-page__video_title {

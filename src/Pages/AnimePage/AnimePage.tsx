@@ -32,7 +32,7 @@ const AnimePage: FC = () => {
                         <div className="main__content">
                             <div className="anime-page">
                                 <div className="anime-page__banner">
-                                    <img className="animePage-img" src={item.img} alt="banner" />
+                                    <img className="animePage-img" src={item.img} alt="banner"/>
                                 </div>
                                 <div className="anime-page__description">
                                     <h2 className="animePage-title">{item.title}</h2>
@@ -77,8 +77,7 @@ const AnimePage: FC = () => {
                                     src={item.linkVideo}
                                     title="YouTube video player"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                ></iframe>
+                                    allowFullScreen/>
                             </div>
                         </div>
                     </div>

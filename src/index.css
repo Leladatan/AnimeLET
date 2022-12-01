@@ -720,6 +720,9 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   padding-top: 2rem;
   padding-bottom: 4rem;
 }
+.anime-page__video > iframe {
+  border: 0;
+}
 
 .anime-page__video_title {
   color: mediumpurple;
