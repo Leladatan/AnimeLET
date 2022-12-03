@@ -144,6 +144,15 @@
   opacity: 0.6;
 }
 
+.main__content__message-search {
+  color: mediumpurple;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
 .main__content {
   display: flex;
   flex-direction: column;
@@ -436,6 +445,15 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 .search_bar::placeholder {
   color: mediumpurple;
   opacity: 0.6;
+}
+
+.main__content__message-search {
+  color: mediumpurple;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0 1rem;
 }
 
 .main__content {

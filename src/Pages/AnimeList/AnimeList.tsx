@@ -49,6 +49,7 @@ const AnimeListPage: FC = () => {
         setMinYear(1960);
         setMaxYear(2022);
     };
+    console.log(animeList)
     return (
         <main className="main">
             <div className="container">
@@ -71,11 +72,18 @@ const AnimeListPage: FC = () => {
                             <Reset reset={handleReset}/>
                         </div>
                     </div>
-                    <div className="main__content_cards">
-                        {animeList.map((item) => (
-                            <AnimeCard item={item} key={item.id}/>
-                        ))}
-                    </div>
+                    {animeList.length === 0
+                        ?
+                        <h2 className="main__content__message-search">
+                            Nothing was found for your request, please specify the request...
+                        </h2>
+                        :
+                        <div className="main__content_cards">
+                            {animeList.map((item) => (
+                                <AnimeCard item={item} key={item.id}/>
+                            ))}
+                        </div>
+                    }
                 </div>
             </div>
         </main>
