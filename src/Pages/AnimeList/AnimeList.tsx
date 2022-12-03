@@ -49,7 +49,6 @@ const AnimeListPage: FC = () => {
         setMinYear(1960);
         setMaxYear(2022);
     };
-    console.log(animeList)
     return (
         <main className="main">
             <div className="container">
